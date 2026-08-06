@@ -1,0 +1,1033 @@
+[
+  {
+    "number": 26767,
+    "title": "docs: add a write-docs authoring skill",
+    "author": "nickvigilante",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/26767",
+    "additions": 193,
+    "deletions": 2,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/doc-check/SKILL.md",
+      ".claude/skills/write-docs/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 26696,
+    "title": "chore(aibridge): update comments from AI Bridge to AI Gateway",
+    "author": "ssncferreira",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/26696",
+    "additions": 20,
+    "deletions": 20,
+    "changedFiles": 9,
+    "artifact_files": [
+      "aibridge/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 26632,
+    "title": "feat: populate docs prose style guide as a landing page plus subpages",
+    "author": "nickvigilante",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/26632",
+    "additions": 2295,
+    "deletions": 133,
+    "changedFiles": 16,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 26478,
+    "title": "chore: add chatd ARCHITECTURE.md and mention it in AGENTS.md",
+    "author": "hugodutka",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/26478",
+    "additions": 1239,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 26352,
+    "title": "docs: add canonical content guidelines, close doc-check SKILL gaps (DOCS-332)",
+    "author": "nickvigilante",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/26352",
+    "additions": 605,
+    "deletions": 58,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md",
+      ".claude/skills/doc-check/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 26204,
+    "title": "fix!: only trust x-forwarded-host from configured trusted proxies",
+    "author": "geokat",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/26204",
+    "additions": 298,
+    "deletions": 36,
+    "changedFiles": 20,
+    "artifact_files": [
+      ".claude/docs/OBSERVABILITY.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 25895,
+    "title": "fix: recreate `ai_provider_type` instead of ADD VALUE",
+    "author": "dannykopping",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25895",
+    "additions": 143,
+    "deletions": 9,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/docs/DATABASE.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 25674,
+    "title": "docs: require substantive, concise comments describing behaviour",
+    "author": "dannykopping",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25674",
+    "additions": 5,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25608,
+    "title": "ci: require docs lint when docs change",
+    "author": "ethanndickson",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25608",
+    "additions": 115,
+    "deletions": 160,
+    "changedFiles": 6,
+    "artifact_files": [
+      ".claude/docs/DEV_ISOLATION.md",
+      ".claude/docs/GO.md",
+      ".claude/docs/TROUBLESHOOTING.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 25601,
+    "title": "chore: standardize on *_internal_test.go for white-box tests",
+    "author": "ethanndickson",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25601",
+    "additions": 70,
+    "deletions": 64,
+    "changedFiles": 52,
+    "artifact_files": [
+      ".claude/docs/TESTING.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25523,
+    "title": "chore: remove dogfood skill disclosure guidance",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25523",
+    "additions": 0,
+    "deletions": 8,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/dogfood/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25488,
+    "title": "chore: add dogfood skill",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25488",
+    "additions": 270,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/dogfood/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 25466,
+    "title": "docs: scaffold docs/.style for the prose style guide",
+    "author": "nickvigilante",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25466",
+    "additions": 217,
+    "deletions": 15,
+    "changedFiles": 8,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md",
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25352,
+    "title": "chore: add storybook to .mcp.json",
+    "author": "aslilac",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25352",
+    "additions": 52,
+    "deletions": 35,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".mcp.json",
+      "site/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25146,
+    "title": "feat: stream go test failure summary and drop raw json artifact",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25146",
+    "additions": 769,
+    "deletions": 115,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/docs/AGENT_FAILURES.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 25141,
+    "title": "docs(.agents/skills/pull-requests): warn against hard-wrapping PR bodies",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25141",
+    "additions": 12,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/pull-requests/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25121,
+    "title": "chore: add coder-agents-review skill",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25121",
+    "additions": 10,
+    "deletions": 23,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/coder-agents-review/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 25096,
+    "title": "style(site): use shorthand for boolean JSX props",
+    "author": "aslilac",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25096",
+    "additions": 25,
+    "deletions": 22,
+    "changedFiles": 18,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25088,
+    "title": "chore: add coder agents review",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25088",
+    "additions": 380,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/coder-agents-review/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 25071,
+    "title": "test: use typed atomics in test files",
+    "author": "zedkipp",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/25071",
+    "additions": 115,
+    "deletions": 116,
+    "changedFiles": 21,
+    "artifact_files": [
+      ".claude/docs/GO.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 24999,
+    "title": "refactor: remove unnecessary typeof window checks",
+    "author": "DanielleMaywood",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24999",
+    "additions": 9,
+    "deletions": 15,
+    "changedFiles": 8,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 24830,
+    "title": "docs: generate Chats API docs from swagger annotations",
+    "author": "david-fraley",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24830",
+    "additions": 10145,
+    "deletions": 1970,
+    "changedFiles": 13,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 24822,
+    "title": "chore: update aibridge/AGENTS.md to reflect it is now part of coder/coder repo",
+    "author": "pawbana",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24822",
+    "additions": 57,
+    "deletions": 76,
+    "changedFiles": 1,
+    "artifact_files": [
+      "aibridge/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 24791,
+    "title": "feat: add harness engineering layer for agent workflows",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24791",
+    "additions": 1562,
+    "deletions": 238,
+    "changedFiles": 20,
+    "artifact_files": [
+      ".agents/docs",
+      ".claude/docs/AGENT_FAILURES.md",
+      ".claude/docs/DATABASE.md",
+      ".claude/docs/DEV_ISOLATION.md",
+      ".claude/docs/GO.md",
+      ".claude/docs/OBSERVABILITY.md",
+      ".claude/docs/TESTING.md",
+      ".claude/docs/WORKFLOWS.md",
+      "AGENTS.md",
+      "site/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 24764,
+    "title": "docs: clarify PR body wrapping",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24764",
+    "additions": 12,
+    "deletions": 8,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/docs/PR_STYLE_GUIDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 24748,
+    "title": "feat(site): add personal model override settings UI",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24748",
+    "additions": 2254,
+    "deletions": 74,
+    "changedFiles": 24,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 24500,
+    "title": "refactor(site): drop redundant window. prefix on browser globals",
+    "author": "aslilac",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24500",
+    "additions": 29,
+    "deletions": 26,
+    "changedFiles": 21,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 24375,
+    "title": "chore: add no-emdash/endash rule to agent instructions and CI lint",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24375",
+    "additions": 146,
+    "deletions": 3,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md",
+      "AGENTS.md",
+      "site/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 24369,
+    "title": "fix(coderd/x/chatd): hoist system prompt fetch out of chat creation transactions",
+    "author": "ethanndickson",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24369",
+    "additions": 20,
+    "deletions": 2,
+    "changedFiles": 3,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 24217,
+    "title": "chore: fix typescript skill table",
+    "author": "aslilac",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24217",
+    "additions": 29,
+    "deletions": 29,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/deep-review/references/typescript.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 24190,
+    "title": "chore: move aibridge library code into coder repo",
+    "author": "pawbana",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/24190",
+    "additions": 32480,
+    "deletions": 33,
+    "changedFiles": 163,
+    "artifact_files": [
+      "aibridge/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 23751,
+    "title": "feat: provider key policies and user provider settings",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23751",
+    "additions": 3687,
+    "deletions": 402,
+    "changedFiles": 39,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23648,
+    "title": "refactor(site): restructure AgentsPage folder",
+    "author": "DanielleMaywood",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23648",
+    "additions": 4938,
+    "deletions": 4716,
+    "changedFiles": 139,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 23505,
+    "title": "fix(.agents/skills/deep-review): include observations in severity evaluation",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23505",
+    "additions": 25,
+    "deletions": 25,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/deep-review/SKILL.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 23502,
+    "title": "feat: add TypeScript and React reference docs for deep-review Modernization Reviewer",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23502",
+    "additions": 510,
+    "deletions": 4,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".agents/skills/deep-review/SKILL.md",
+      ".agents/skills/deep-review/references/react.md",
+      ".agents/skills/deep-review/references/typescript.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23500,
+    "title": "feat: add deep-review skill for multi-reviewer code review",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23500",
+    "additions": 634,
+    "deletions": 0,
+    "changedFiles": 17,
+    "artifact_files": [
+      ".agents/skills/deep-review/SKILL.md",
+      ".agents/skills/deep-review/nit-reviewer-prompt.md",
+      ".agents/skills/deep-review/roles/concurrency-reviewer.md",
+      ".agents/skills/deep-review/roles/contract-auditor.md",
+      ".agents/skills/deep-review/roles/database-reviewer.md",
+      ".agents/skills/deep-review/roles/duplication-checker.md",
+      ".agents/skills/deep-review/roles/edge-case-analyst.md",
+      ".agents/skills/deep-review/roles/frontend-reviewer.md",
+      ".agents/skills/deep-review/roles/go-architect.md",
+      ".agents/skills/deep-review/roles/modernization-reviewer.md",
+      ".agents/skills/deep-review/roles/performance-analyst.md",
+      ".agents/skills/deep-review/roles/product-reviewer.md",
+      ".agents/skills/deep-review/roles/security-reviewer.md",
+      ".agents/skills/deep-review/roles/structural-analyst.md",
+      ".agents/skills/deep-review/roles/style-reviewer.md",
+      ".agents/skills/deep-review/roles/test-auditor.md",
+      ".agents/skills/deep-review/structural-reviewer-prompt.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23452,
+    "title": "feat: add propose_plan tool for markdown plan proposals",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23452",
+    "additions": 957,
+    "deletions": 3,
+    "changedFiles": 12,
+    "artifact_files": [
+      ".agents/skills/refine-plan/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23403,
+    "title": "docs: add explicit read instructions for non-Claude-Code agents",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23403",
+    "additions": 21,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 23384,
+    "title": "docs: remove hardcoded AI attribution template from PR style guide",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23384",
+    "additions": 2,
+    "deletions": 11,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/docs/PR_STYLE_GUIDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 23371,
+    "title": "feat(site): opt AgentsPage and ai-elements into React Compiler",
+    "author": "DanielleMaywood",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23371",
+    "additions": 2658,
+    "deletions": 2583,
+    "changedFiles": 46,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23364,
+    "title": "chore: add pull-requests agent skill",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23364",
+    "additions": 72,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/pull-requests/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23358,
+    "title": "feat: smart file-based target selection for scripts/githooks",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23358",
+    "additions": 116,
+    "deletions": 10,
+    "changedFiles": 4,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23303,
+    "title": "feat(site): add @storybook/addon-vitest for local story testing",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23303",
+    "additions": 267,
+    "deletions": 11,
+    "changedFiles": 6,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23299,
+    "title": "docs(site): add frontend agent guidelines from PR review analysis",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23299",
+    "additions": 142,
+    "deletions": 6,
+    "changedFiles": 1,
+    "artifact_files": [
+      "site/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23279,
+    "title": "fix: stabilize chatd timing regression and CLI OIDC claims race test",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23279",
+    "additions": 98,
+    "deletions": 46,
+    "changedFiles": 4,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 23096,
+    "title": "ci: add conventional commit PR title linting",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23096",
+    "additions": 123,
+    "deletions": 22,
+    "changedFiles": 6,
+    "artifact_files": [
+      ".claude/docs/ARCHITECTURE.md",
+      ".claude/docs/PR_STYLE_GUIDE.md",
+      ".claude/docs/WORKFLOWS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 23037,
+    "title": "feat(site): add chat cost analytics frontend",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23037",
+    "additions": 1540,
+    "deletions": 42,
+    "changedFiles": 19,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 23036,
+    "title": "feat: add chat cost analytics backend",
+    "author": "ibetitsmike",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/23036",
+    "additions": 2034,
+    "deletions": 262,
+    "changedFiles": 34,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 22980,
+    "title": "feat(scripts/githooks): restore pre-push hook with allowlist",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22980",
+    "additions": 98,
+    "deletions": 11,
+    "changedFiles": 5,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 22956,
+    "title": "chore(githooks): remove pre-push hook",
+    "author": "ThomasK33",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22956",
+    "additions": 20,
+    "deletions": 90,
+    "changedFiles": 5,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 22839,
+    "title": "build: remove defunct test-postgres rule",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22839",
+    "additions": 33,
+    "deletions": 49,
+    "changedFiles": 7,
+    "artifact_files": [
+      ".claude/docs/DATABASE.md",
+      ".claude/docs/TESTING.md",
+      ".claude/docs/WORKFLOWS.md",
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 22825,
+    "title": "fix(scripts/githooks): prevent agents from bypassing git hooks",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22825",
+    "additions": 44,
+    "deletions": 8,
+    "changedFiles": 4,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 22705,
+    "title": "build: add pre-commit/push hooks mirroring CI checks",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22705",
+    "additions": 189,
+    "deletions": 16,
+    "changedFiles": 5,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 22558,
+    "title": "docs(.claude/docs): add modern Go reference for AI agents",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22558",
+    "additions": 250,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/docs/GO.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 22490,
+    "title": "chore: update test directions in AGENTS.md",
+    "author": "johnstcn",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22490",
+    "additions": 1,
+    "deletions": 3,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 22076,
+    "title": "chore: tell claude to use react-query",
+    "author": "aslilac",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/22076",
+    "additions": 131,
+    "deletions": 129,
+    "changedFiles": 2,
+    "artifact_files": [
+      "site/AGENTS.md",
+      "site/CLAUDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 21668,
+    "title": "feat: add code-review skill and align workflow with doc-check",
+    "author": "DevelopmentCats",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21668",
+    "additions": 364,
+    "deletions": 164,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/code-review/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 21588,
+    "title": "feat: update doc-check workflow to utilize claude-skills",
+    "author": "DevelopmentCats",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21588",
+    "additions": 302,
+    "deletions": 71,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/doc-check/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 21207,
+    "title": "docs: add git workflow guidelines to prevent force pushing",
+    "author": "bpmct",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21207",
+    "additions": 26,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/docs/WORKFLOWS.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 21202,
+    "title": "chore: swap CLAUDE.md and AGENTS.md symlink",
+    "author": "deansheather",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21202",
+    "additions": 219,
+    "deletions": 219,
+    "changedFiles": 2,
+    "artifact_files": [
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 21178,
+    "title": "docs: address review comments for DOCS_STYLE_GUIDE.md",
+    "author": "bpmct",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21178",
+    "additions": 11,
+    "deletions": 11,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 21153,
+    "title": "docs: add documentation style guide for AI agents",
+    "author": "bpmct",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21153",
+    "additions": 310,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md",
+      "CLAUDE.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 21148,
+    "title": "docs: add PR description style guide for agents",
+    "author": "bpmct",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21148",
+    "additions": 257,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/docs/PR_STYLE_GUIDE.md",
+      "CLAUDE.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 21144,
+    "title": "docs: remove unused _redirects file and document redirect process",
+    "author": "app/blinkagent",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21144",
+    "additions": 12,
+    "deletions": 13,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/docs/DOCS_STYLE_GUIDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 21083,
+    "title": "docs: add rules to avoid unnecessary changes",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21083",
+    "additions": 17,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "CLAUDE.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 21058,
+    "title": "docs: fix typo in CLAUDE.md",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21058",
+    "additions": 1,
+    "deletions": 1,
+    "changedFiles": 1,
+    "artifact_files": [
+      "CLAUDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 21056,
+    "title": "docs: fix gitignored file loading in CLAUDE.md",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21056",
+    "additions": 4,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "CLAUDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 21043,
+    "title": "docs: add support for AGENTS.local.md overrides",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/21043",
+    "additions": 5,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "CLAUDE.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 20952,
+    "title": "docs: improve code comment guidelines for AI agents",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/20952",
+    "additions": 33,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "CLAUDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 20950,
+    "title": "docs: consolidate cursorrules into AGENTS.md",
+    "author": "mafredri",
+    "state": "MERGED",
+    "url": "https://github.com/coder/coder/pull/20950",
+    "additions": 128,
+    "deletions": 124,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/docs/ARCHITECTURE.md",
+      ".cursorrules",
+      "CLAUDE.md"
+    ],
+    "category": "docs-artifact"
+  }
+]

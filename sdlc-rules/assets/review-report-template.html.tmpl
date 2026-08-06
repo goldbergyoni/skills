@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SDLC Review Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --card: #fff;
+    --fg: #28282a;
+    --muted: #6b7280;
+    --primary: #0d9488;
+    --border: #e2e4e8;
+    --radius: 12px;
+    --pass: #059669;
+    --fail: #dc2626;
+    --na: #9ca3af;
+    --error-bg: #fef2f2;
+    --error-fg: #b91c1c;
+    --warning-bg: #fff4ed;
+    --warning-fg: #c2410c;
+    --info-bg: #f0fdfa;
+    --info-fg: #0f766e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 60rem; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+  header h1 { font-size: 2.25rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 .25rem; }
+  header .label { font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .12em; color: var(--primary); }
+  header .sub { color: var(--muted); font-size: .95rem; margin: .5rem 0 0; }
+
+  nav.tabs {
+    display: flex; flex-wrap: wrap; gap: .5rem;
+    margin: 2rem 0 1.5rem; border-bottom: 1px solid var(--border);
+  }
+  nav.tabs button {
+    font: inherit; font-weight: 600; font-size: 1.05rem; cursor: pointer;
+    border: 0; background: none; padding: .65rem 1rem; color: var(--muted);
+    border-bottom: 2px solid transparent; margin-bottom: -1px;
+  }
+  nav.tabs button.active { color: var(--primary); border-bottom-color: var(--primary); }
+  nav.tabs button .count { font-weight: 500; opacity: .75; }
+
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 1.75rem 2rem; box-shadow: 0 1px 3px rgba(0,0,0,.04); margin-bottom: 1.25rem;
+  }
+  h2 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 1rem; }
+
+  .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.25rem; }
+  .stat {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.25rem 1rem; text-align: center;
+  }
+  .stat .num { font-size: 2rem; font-weight: 800; letter-spacing: -0.03em; line-height: 1; }
+  .stat .lbl { font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-top: .5rem; }
+  .stat.error .num { color: var(--fail); }
+  .stat.warning .num { color: var(--warning-fg); }
+  .stat.informative .num { color: var(--primary); }
+
+  .artifact-meta { color: var(--muted); font-size: .88rem; margin: 0 0 1.5rem; }
+  .artifact-meta code { background: rgba(0,0,0,.06); padding: .1em .4em; border-radius: 5px; font-size: .88em; color: var(--fg); }
+
+  .section-label {
+    font-size: 1.35rem; font-weight: 700; letter-spacing: -0.01em;
+    color: var(--fg); margin: 2.25rem 0 1rem;
+    padding-bottom: .5rem; border-bottom: 2px solid var(--primary);
+  }
+  .section-label:first-child { margin-top: 0; }
+
+  .checklist { list-style: none; margin: 0; padding: 0; }
+  .check-item { border: 1px solid var(--border); border-radius: 10px; margin-bottom: .5rem; background: var(--card); overflow: hidden; }
+  .check-item.pass { border-color: #d1fae5; }
+  .check-item.fail { border-color: #fecaca; }
+  .check-item.na { border-color: var(--border); opacity: .85; }
+
+  .check-header {
+    display: flex; align-items: center; gap: .75rem; width: 100%;
+    padding: .85rem 1rem; border: 0; background: none; cursor: pointer;
+    font: inherit; text-align: left; color: var(--fg);
+  }
+  .check-header:hover { background: rgba(0,0,0,.02); }
+  .check-item.fail .check-header:hover { background: var(--error-bg); }
+
+  .status-icon {
+    flex-shrink: 0; width: 1.35rem; height: 1.35rem; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: .75rem; font-weight: 700;
+  }
+  .status-icon.pass { background: #d1fae5; color: var(--pass); }
+  .status-icon.fail { background: #fecaca; color: var(--fail); }
+  .status-icon.na { background: #f3f4f6; color: var(--na); }
+
+  .check-title { flex: 1; font-weight: 600; font-size: .95rem; line-height: 1.4; }
+  .check-badges { display: flex; align-items: center; gap: .5rem; flex-shrink: 0; }
+
+  .sev-badge {
+    font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+    padding: .2em .55em; border-radius: 999px;
+  }
+  .sev-error { background: var(--error-bg); color: var(--error-fg); }
+  .sev-warning { background: var(--warning-bg); color: var(--warning-fg); }
+  .sev-informative { background: var(--info-bg); color: var(--info-fg); }
+
+  .chevron {
+    flex-shrink: 0; width: 1rem; height: 1rem; color: var(--muted);
+    transition: transform .15s ease;
+  }
+  .check-item.open .chevron { transform: rotate(180deg); }
+
+  .check-body {
+    display: none; padding: 0 1rem 1rem 3.1rem; font-size: .9rem; color: var(--muted);
+  }
+  .check-item.open .check-body { display: block; }
+  .check-body p { margin: 0 0 .65rem; }
+  .check-body p:last-child { margin-bottom: 0; }
+  .check-body strong { color: var(--fg); font-weight: 600; }
+  .check-body .fail-reason {
+    margin-top: .75rem; padding: .75rem 1rem; border-radius: 8px;
+    background: var(--error-bg); color: var(--error-fg); font-size: .88rem;
+  }
+  .check-body .fail-reason.warning { background: var(--warning-bg); color: var(--warning-fg); }
+  .check-body .fail-reason.informative { background: var(--info-bg); color: var(--info-fg); }
+
+  .artifact-list { list-style: none; margin: 1rem 0 0; padding: 0; }
+  .artifact-list li {
+    display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    padding: .65rem 0; border-bottom: 1px solid var(--border); font-size: .92rem;
+  }
+  .artifact-list li:last-child { border-bottom: 0; }
+  .artifact-list .path { font-weight: 500; }
+  .artifact-list .findings { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+  .artifact-list .findings.has-issues { color: var(--fail); font-weight: 600; }
+
+  @media (max-width: 640px) {
+    .summary-grid { grid-template-columns: 1fr; }
+    .check-body { padding-left: 1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="label">SDLC Review</div>
+    <h1>Review Report</h1>
+    <p class="sub" id="subtitle"></p>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="active" data-tab="summary">Summary</button>
+  </nav>
+  <div id="panels">
+    <section class="panel active" id="summary"></section>
+  </div>
+</div>
+
+<script>
+  // ── Populate ONLY this object. Summary counts are computed from items. ──
+  const reviewData = {
+    generatedAt: "REPLACE_WITH_DATE",
+    artifacts: [
+      {
+        type: "skill",
+        file: "skills/example/SKILL.md",
+        checklist: "skill-checklist.md",
+        sections: [
+          // kind "container" → one flat tab per ## heading. kind "guideline" → merged into the
+          // single "Instruction And Rule" tab. Section names come from the checklist's ## headings.
+          { name: "Structure And Intent", kind: "container", items: [
+            {
+              num: 1,
+              check: "Valid name",
+              severity: "error",
+              result: "PASS",
+              description: "The skill name must match the parent directory: lowercase letters, numbers, and single hyphens only.",
+              note: ""
+            }
+          ] },
+          // ...remaining container sections mirror the checklist headings; omit empty ones
+          { name: "Checks", kind: "guideline", items: [
+            {
+              num: 1,
+              check: "Not duplicated",
+              severity: "error",
+              result: "PASS",
+              description: "The guideline is not duplicated or conflicting with an existing instruction.",
+              note: ""
+            }
+          ] }
+        ]
+      }
+      // Each item: { num, check, severity, result, note, description? }
+      // severity: error | warning | informative · result: PASS | FAIL | N/A
+    ]
+  };
+
+  // ── Rendering (do not edit below) ──
+  const sevClass = { error: "sev-error", warning: "sev-warning", informative: "sev-informative" };
+  const sevLabel = { error: "Error", warning: "Warning", informative: "Info" };
+
+  function computeSummary(artifacts) {
+    const s = { error: 0, warning: 0, informative: 0 };
+    for (const a of artifacts)
+      for (const sec of a.sections)
+        for (const it of sec.items)
+          if (it.result === "FAIL" && s[it.severity] !== undefined) s[it.severity]++;
+    return s;
+  }
+
+  function artifactFindings(a) {
+    let n = 0;
+    for (const sec of a.sections) for (const it of sec.items) if (it.result === "FAIL") n++;
+    return n;
+  }
+
+  function sectionFindings(items) {
+    let n = 0;
+    for (const it of items) if (it.result === "FAIL") n++;
+    return n;
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function statusIcon(result) {
+    if (result === "PASS") return { cls: "pass", glyph: "✓" };
+    if (result === "FAIL") return { cls: "fail", glyph: "✗" };
+    return { cls: "na", glyph: "—" };
+  }
+
+  function renderItem(it) {
+    const st = statusIcon(it.result);
+    const itemCls = st.cls === "na" ? "na" : st.cls;
+    const hasBody = it.description || (it.result === "FAIL" && it.note);
+    const chevron = hasBody
+      ? `<svg class="chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6l4 4 4-4"/></svg>`
+      : "";
+
+    let badges = "";
+    if (it.result === "FAIL" && it.severity)
+      badges = `<span class="sev-badge ${sevClass[it.severity] || ""}">${sevLabel[it.severity] || it.severity}</span>`;
+
+    let body = "";
+    if (hasBody) {
+      const parts = [];
+      if (it.description)
+        parts.push(`<p><strong>What this checks</strong> — ${escapeHtml(it.description)}</p>`);
+      if (it.result === "FAIL" && it.note)
+        parts.push(`<div class="fail-reason ${escapeHtml(it.severity || "error")}"><strong>Why it failed</strong> — ${escapeHtml(it.note)}</div>`);
+      else if (it.result === "N/A" && it.note)
+        parts.push(`<p><strong>Note</strong> — ${escapeHtml(it.note)}</p>`);
+      body = `<div class="check-body">${parts.join("")}</div>`;
+    }
+
+    const openByDefault = it.result === "FAIL" && hasBody;
+    const toggle = hasBody ? `onclick="this.closest('.check-item').classList.toggle('open')"` : "";
+    return `<li class="check-item ${itemCls}${openByDefault ? " open" : ""}">
+      <button type="button" class="check-header" ${toggle} aria-expanded="false">
+        <span class="status-icon ${st.cls}">${st.glyph}</span>
+        <span class="check-title">${escapeHtml(it.check)}</span>
+        <span class="check-badges">${badges}${chevron}</span>
+      </button>
+      ${body}
+    </li>`;
+  }
+
+  function typeLabel(type) {
+    return type.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  }
+
+  function topicOf(a) {
+    const parts = a.file.split("/");
+    const filename = parts[parts.length - 1];
+    // For SKILL.md / context files use the parent directory as the topic
+    return (filename.toUpperCase() === "SKILL.MD" || filename.toUpperCase() === "AGENTS.MD" || filename.toUpperCase() === "CLAUDE.MD")
+      ? parts[parts.length - 2] || filename.replace(/\.[^.]+$/, "")
+      : filename.replace(/\.[^.]+$/, "");
+  }
+
+  function renderContainerTab(a, sec) {
+    const checks = sec.items.length;
+    const findings = sectionFindings(sec.items);
+    return `<div class="card">
+      <h2>${escapeHtml(sec.name)}</h2>
+      <p class="artifact-meta">
+        ${escapeHtml(typeLabel(a.type))} · <code>${escapeHtml(a.file)}</code> · checklist: <code>${escapeHtml(a.checklist)}</code>
+        · ${checks} check${checks === 1 ? "" : "s"} · ${findings} finding${findings === 1 ? "" : "s"}
+      </p>
+      <ul class="checklist">${sec.items.map(renderItem).join("")}</ul>
+    </div>`;
+  }
+
+  function renderGuidelineTab(groups) {
+    return groups.map(g => {
+      const checks = g.items.length;
+      const findings = sectionFindings(g.items);
+      return `<div class="card">
+        <h2>${escapeHtml(topicOf(g.a))}</h2>
+        <p class="artifact-meta">
+          ${escapeHtml(typeLabel(g.a.type))} · <code>${escapeHtml(g.a.file)}</code>
+          · ${checks} guideline line${checks === 1 ? "" : "s"} · ${findings} finding${findings === 1 ? "" : "s"}
+        </p>
+        <ul class="checklist">${g.items.map(renderItem).join("")}</ul>
+      </div>`;
+    }).join("");
+  }
+
+  function renderSummary(artifacts, summary) {
+    const rows = artifacts.map((a, i) => {
+      const findings = artifactFindings(a);
+      const cls = findings ? "has-issues" : "";
+      const label = findings ? findings + " finding" + (findings === 1 ? "" : "s") : "All pass";
+      return `<li>
+        <span class="path">${escapeHtml(typeLabel(a.type))} · <code>${escapeHtml(a.file)}</code></span>
+        <span class="findings ${cls}">${label}</span>
+      </li>`;
+    }).join("");
+
+    return `<div class="card">
+      <h2>Executive Summary</h2>
+      <p>${artifacts.length} artifact${artifacts.length === 1 ? "" : "s"} reviewed against their SDLC checklists.</p>
+      <div class="summary-grid">
+        <div class="stat error"><div class="num">${summary.error}</div><div class="lbl">Errors</div></div>
+        <div class="stat warning"><div class="num">${summary.warning}</div><div class="lbl">Warnings</div></div>
+        <div class="stat informative"><div class="num">${summary.informative}</div><div class="lbl">Info</div></div>
+      </div>
+      <ul class="artifact-list">${rows}</ul>
+    </div>`;
+  }
+
+  function addTab(tabs, panels, id, label, html) {
+    const btn = document.createElement("button");
+    btn.dataset.tab = id;
+    btn.textContent = label;
+    btn.addEventListener("click", () => activate(id));
+    tabs.appendChild(btn);
+
+    const panel = document.createElement("section");
+    panel.className = "panel";
+    panel.id = id;
+    panel.innerHTML = html;
+    panels.appendChild(panel);
+  }
+
+  function render() {
+    const { artifacts } = reviewData;
+    document.getElementById("subtitle").textContent =
+      (reviewData.generatedAt || "") + " · " + artifacts.length + " artifact" + (artifacts.length === 1 ? "" : "s");
+
+    const summary = computeSummary(artifacts);
+    document.getElementById("summary").innerHTML = renderSummary(artifacts, summary);
+
+    const tabs = document.getElementById("tabs");
+    const panels = document.getElementById("panels");
+    tabs.querySelector("[data-tab='summary']").addEventListener("click", () => activate("summary"));
+
+    // Flat tabs: every container category is its own tab; all guideline passes merge into one.
+    const guidelineGroups = [];
+    let idx = 0;
+    artifacts.forEach((a) => {
+      a.sections.forEach((sec) => {
+        if (!sec.items.length) return;
+        if ((sec.kind || "container") === "guideline") {
+          guidelineGroups.push({ a, items: sec.items });
+          return;
+        }
+        addTab(tabs, panels, "tab-" + (idx++), typeLabel(a.type) + " - " + sec.name, renderContainerTab(a, sec));
+      });
+    });
+
+    if (guidelineGroups.length)
+      addTab(tabs, panels, "instruction-rule", "Instruction And Rule", renderGuidelineTab(guidelineGroups));
+  }
+
+  function activate(id) {
+    document.querySelectorAll("nav.tabs button").forEach(b => {
+      b.classList.toggle("active", b.dataset.tab === id);
+    });
+    document.querySelectorAll(".panel").forEach(p => {
+      p.classList.toggle("active", p.id === id);
+    });
+  }
+
+  render();
+</script>
+</body>
+</html>

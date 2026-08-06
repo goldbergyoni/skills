@@ -141,3 +141,26 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ---- Repo-specific ----
+
+# macOS
+.DS_Store
+
+# Python (skill scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Cloned benchmark repositories used as eval fixtures (hundreds of MB, own .git)
+sdlc-rules/evals/benchmark-repositories/*/source code/
+
+# Local eval run outputs
+sdlc-rules/evals/benchmark-repositories/*/runs/
+
+# Local scratch workspaces (not part of the published skills)
+workspaces/
+
+# Generated dashboards / reports at repo root
+/*.html

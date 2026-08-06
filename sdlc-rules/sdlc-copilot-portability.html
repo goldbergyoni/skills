@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SDLC skill → Copilot: verified differences</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #f8f9fa; --card: #fff; --fg: #28282a; --muted: #6b7280;
+    --primary: #0d9488; --border: #e2e4e8; --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.6; }
+  .wrap { max-width: 54rem; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+  header .label { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--primary); }
+  header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; margin: .25rem 0 .4rem; }
+  header .sub { color: var(--muted); font-size: 1.02rem; }
+  .note { background: #f0fdfa; border-left: 4px solid var(--primary); border-radius: 0 10px 10px 0; padding: 1rem 1.2rem; margin: 1.75rem 0 1rem; font-size: .95rem; }
+  .correction { background: #fef6ed; border-left: 4px solid #b45309; border-radius: 0 10px 10px 0; padding: 1rem 1.2rem; margin: 1rem 0 2rem; font-size: .92rem; }
+  .correction b { color: #b45309; }
+  .sec-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--primary); margin: 2.25rem 0 .9rem; }
+  ul.flat { list-style: none; padding: 0; margin: 0; }
+  ul.flat li { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: 0 1px 3px rgba(0,0,0,.04); padding: 1.1rem 1.35rem; margin-bottom: .85rem; }
+  ul.flat li .t { font-weight: 700; font-size: 1rem; display: block; margin-bottom: .25rem; }
+  ul.flat li .d { color: var(--muted); font-size: .92rem; }
+  ul.flat li .src { font-size: .8rem; margin-top: .55rem; }
+  ul.flat li .src a { color: var(--primary); font-weight: 600; text-decoration: none; border-bottom: 1px solid rgba(13,148,136,.35); }
+  ul.flat li .src::before { content: "✓ verified · "; color: var(--primary); font-weight: 700; }
+  .pill { display: inline-block; font-size: .68rem; font-weight: 700; padding: .12rem .5rem; border-radius: 999px; margin-left: .5rem; vertical-align: middle; }
+  .p-path { background: #d1faf4; color: #0f766e; }
+  .p-format { background: #fde8d0; color: #b45309; }
+  .p-verify { background: #e4e7eb; color: #4b5563; }
+  code { background: rgba(0,0,0,.06); padding: .1em .35em; border-radius: 5px; font-size: .86em; }
+  a { color: var(--primary); }
+  .compat { font-size: .92rem; color: var(--muted); }
+  .compat b { color: var(--fg); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="label">Porting analysis · verified against live docs</div>
+    <h1>SDLC skill → GitHub Copilot: what actually differs</h1>
+    <div class="sub">Every claim below was checked against current VS Code / GitHub docs; each carries its proof link.</div>
+  </header>
+
+  <div class="note">
+    <b>Headline:</b> There are <b>no missing concepts</b>. Copilot supports skills, instructions, prompt files, subagents, hooks, and MCP — the same building blocks your <code>sdlc</code> skill governs, on the same open Agent Skills standard. So porting is <b>path &amp; format remapping</b>, not "rewrite because feature X is absent." The review philosophy and the guideline-rule checklist port unchanged.
+  </div>
+
+  <div class="correction">
+    <b>Correction log (my earlier mistakes, now fixed):</b> I wrongly claimed at various points that Copilot has "no skill concept," "no true subagents," "no hooks," and doesn't read <code>CLAUDE.md</code>. All four were wrong — corrected and sourced below. Treat every item here as verified, not remembered.
+  </div>
+
+  <div class="sec-label">Differences to remap (each verified)</div>
+  <ul class="flat">
+    <li>
+      <span class="t">Skill location <span class="pill p-path">path</span></span>
+      <span class="d">Your skill sits at <code>.cursor/skills/sdlc</code>, which is not one of Copilot's load paths. Copilot reads project skills from <code>.github/skills</code>, <code>.claude/skills</code>, or <code>.agents/skills</code> (personal: <code>~/.copilot/skills</code>, <code>~/.agents/skills</code>). To share across both tools, host under <code>.claude/skills</code> or <code>.agents/skills</code> — but confirm Cursor's own supported locations, which I have not verified here.</span>
+      <span class="src"><a href="https://docs.github.com/en/copilot/concepts/agents/about-agent-skills">GitHub Docs — About agent skills</a></span>
+    </li>
+    <li>
+      <span class="t">Rules → instructions files <span class="pill p-format">format</span></span>
+      <span class="d">Cursor rules are <code>.cursor/rules/*.mdc</code> with <code>globs</code>/<code>alwaysApply</code>. Copilot's equivalent is <code>.github/instructions/*.instructions.md</code> using an <code>applyTo</code> glob in YAML frontmatter, plus the always-on <code>.github/copilot-instructions.md</code>. Same idea, different filename, extension, and frontmatter field — the routing row and rule-checklist must point here.</span>
+      <span class="src"><a href="https://code.visualstudio.com/docs/copilot/customization/custom-instructions">VS Code Docs — Custom instructions</a></span>
+    </li>
+    <li>
+      <span class="t">Commands → prompt files <span class="pill p-path">path</span></span>
+      <span class="d">Cursor <code>.cursor/commands/*.md</code> maps to Copilot prompt files at <code>.github/prompts/*.prompt.md</code>, invoked with <code>/name</code> in chat (or via "Chat: Run Prompt"). Concept matches; re-point the path and frontmatter.</span>
+      <span class="src"><a href="https://code.visualstudio.com/docs/copilot/customization/prompt-files">VS Code Docs — Prompt files</a></span>
+    </li>
+    <li>
+      <span class="t">Subagents <span class="pill p-path">path</span></span>
+      <span class="d">Copilot has genuine subagents (formerly "custom chat modes") with context isolation, parallelism, and roles. Cursor <code>.cursor/agents/*.md</code> → Copilot <code>.github/agents/*.agent.md</code>, with frontmatter like <code>user-invocable</code> and <code>disable-model-invocation</code> plus its own model/tools. Clean path + frontmatter remap.</span>
+      <span class="src"><a href="https://code.visualstudio.com/docs/copilot/agents/subagents">VS Code Docs — Subagents</a></span>
+    </li>
+    <li>
+      <span class="t">Hooks <span class="pill p-format">format</span></span>
+      <span class="d">Copilot <em>does</em> have hooks (Preview). Cursor's <code>.cursor/hooks.json</code> maps to Copilot hook JSON in <code>.github/hooks/</code>, mapping lifecycle events (<code>SessionStart</code>, <code>PreToolUse</code>, <code>PostToolUse</code>, <code>SubagentStart/Stop</code>, <code>PreCompact</code>, <code>Stop</code>) to shell commands via stdin/stdout JSON. Keep the hook checklist; retarget path and align event names.</span>
+      <span class="src"><a href="https://code.visualstudio.com/docs/agent-customization/hooks">VS Code Docs — Agent hooks</a> · <a href="https://docs.github.com/en/copilot/reference/hooks-reference">GitHub Docs — Hooks reference</a></span>
+    </li>
+    <li>
+      <span class="t">MCP / harness config <span class="pill p-path">path</span></span>
+      <span class="d">Cursor's <code>mcp.json</code>/<code>settings.json</code> map to Copilot's <code>.vscode/mcp.json</code> (workspace, source-controllable) and a user-profile <code>mcp.json</code> (via "MCP: Open User Configuration"). Other harness settings live in VS Code settings. Different files; the "other" checklist retargets here.</span>
+      <span class="src"><a href="https://code.visualstudio.com/docs/copilot/customization/mcp-servers">VS Code Docs — MCP servers</a></span>
+    </li>
+    <li>
+      <span class="t">Context files <span class="pill p-path">path</span></span>
+      <span class="d">Copilot's always-on context file is <code>.github/copilot-instructions.md</code>, and it also reads both <code>AGENTS.md</code> and <code>CLAUDE.md</code> (workspace root, <code>.claude</code> folder, or home). So the context-file checklist keeps <code>CLAUDE.md</code>/<code>AGENTS.md</code> and adds <code>copilot-instructions.md</code>. (Nested <code>AGENTS.md</code> needs <code>chat.useNestedAgentsMdFiles</code>.)</span>
+      <span class="src"><a href="https://code.visualstudio.com/docs/copilot/customization/custom-instructions">VS Code Docs — Custom instructions</a></span>
+    </li>
+    <li>
+      <span class="t">Dedup search globs <span class="pill p-path">path</span></span>
+      <span class="d">The guideline checklist's "not duplicated" check greps <code>.cursor/skills/**</code>, <code>.cursor/rules/*.mdc</code>, <code>.cursor/commands/*.md</code>. Repoint to the Copilot paths above (<code>.github/skills</code>, <code>.github/instructions</code>, <code>.github/prompts</code>, <code>.claude/skills</code>) so dedup covers the real files. Derived from the location facts in the linked skill/instructions docs.</span>
+      <span class="src"><a href="https://docs.github.com/en/copilot/concepts/agents/about-agent-skills">GitHub Docs — About agent skills</a></span>
+    </li>
+    <li>
+      <span class="t">Skill frontmatter fields <span class="pill p-verify">confirm</span></span>
+      <span class="d">Your <code>SKILL.md</code> declares <code>allowed-tools</code> (<code>Read</code>, <code>Grep</code>, <code>Shell</code>, <code>StrReplace</code>…) — Cursor's tool identifiers. Because Copilot follows the open Agent Skills spec, <code>name</code>/<code>description</code> carry over, but the exact tool-permission field name and accepted tool IDs should be confirmed against the spec before relying on them. This is the one item I could not fully pin down in the docs.</span>
+      <span class="src"><a href="https://docs.github.com/en/copilot/concepts/agents/about-agent-skills">GitHub Docs — About agent skills</a> (defers exact schema to the open spec)</span>
+    </li>
+  </ul>
+
+  <div class="sec-label">Ports unchanged (no remap needed)</div>
+  <p class="compat">
+    <b>SKILL.md format &amp; description-based triggering</b> · <b>references/ progressive disclosure</b> · <b>guideline-rule-checklist.md</b> · <b>the golden rule</b> (concise / high signal-to-noise) · <b>two-layer review model</b> (container + per-guideline) · <b>severity scoring</b> · <b>text &amp; HTML report templates</b> · <b>rule-checklist's core principle</b> (no code-style advice in pointer/config files — applies to instructions files identically).
+  </p>
+</div>
+</body>
+</html>

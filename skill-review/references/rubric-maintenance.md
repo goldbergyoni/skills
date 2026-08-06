@@ -1,0 +1,7 @@
+# Pillar 8 — Maintenance Quality (MNT)
+
+- **MNT-01 retrospection** (judge): the skill includes a mechanism for post-run retrospection — a summary, lessons-learned capture, or review step that reflects on what went well and what didn't. A skill that runs and forgets scores 0; one that produces a retrospective artifact or prompts the user to review outcomes scores 4.
+- **MNT-02 learning-loop** (judge): the skill has instructions or mechanisms to improve itself over time based on past runs — e.g. capturing failure patterns, updating examples from real usage, or feeding outcomes back into future behavior. A static skill with no self-improvement pathway scores 0.
+- **MNT-03 improvement-artifacts** (judge): the skill produces or references durable artifacts that accumulate value across runs — decision logs, pattern libraries, known-issue lists, calibration data. These are distinct from per-run outputs; they persist and inform future invocations.
+- **MNT-04 iteration-instructions** (judge): the skill includes explicit instructions for how a maintainer should iterate on it — what to change when it underperforms, how to add new cases or rules, where the extension points are. A skill with no guidance on its own maintenance scores 0.
+- **MNT-05 memory-integration** (judge): the skill leverages or instructs the agent to use persistent memory (session memory, project memory, or file-based state) to carry forward learnings across invocations, rather than starting from zero each time.

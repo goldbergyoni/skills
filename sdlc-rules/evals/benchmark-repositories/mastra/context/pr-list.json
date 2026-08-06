@@ -1,0 +1,1167 @@
+[
+  {
+    "number": 18753,
+    "title": "chore: add interactive /understand-pr and /understand-issue slash commands",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18753",
+    "additions": 651,
+    "deletions": 456,
+    "changedFiles": 10,
+    "artifact_files": [
+      ".claude/commands/understand-issue.md",
+      ".claude/commands/understand-pr.md",
+      ".mastracode/commands/critique-pr.md",
+      ".mastracode/commands/gh-bulk-issues.md",
+      ".mastracode/commands/gh-debug-issue.md",
+      ".mastracode/commands/gh-triage.md",
+      ".mastracode/commands/understand-issue.md",
+      ".mastracode/commands/understand-pr.md",
+      ".mastracode/shared/issue-debug-context.md",
+      ".mastracode/shared/pr-review-context.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18799,
+    "title": "chore: consolidate tailwind skills into tailwind-v4 and mastra-frontend",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18799",
+    "additions": 175,
+    "deletions": 443,
+    "changedFiles": 12,
+    "artifact_files": [
+      ".claude/skills/mastra-frontend/SKILL.md",
+      ".claude/skills/tailwind-best-practices/SKILL.md",
+      ".claude/skills/tailwind-best-practices/references/rules/classname-no-arbitrary.md",
+      ".claude/skills/tailwind-best-practices/references/rules/classname-no-ds-override.md",
+      ".claude/skills/tailwind-best-practices/references/rules/component-use-existing.md",
+      ".claude/skills/tailwind-best-practices/references/rules/tokens-no-modification.md",
+      ".claude/skills/tailwind-best-practices/references/rules/tokens-use-existing.md",
+      ".claude/skills/tailwind-best-practices/references/tailwind-best-practices-reference.md",
+      ".claude/skills/tailwind-v4/SKILL.md",
+      "AGENTS.md",
+      "packages/playground-ui/CLAUDE.md",
+      "packages/playground/CLAUDE.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 18681,
+    "title": "feat(playground): agent capabilities footer + memory panel at bottom",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18681",
+    "additions": 1240,
+    "deletions": 319,
+    "changedFiles": 27,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/react-best-practices/references/rules/client-request-dedupe.md",
+      ".claude/skills/react-best-practices/references/rules/structure-composition-over-config.md",
+      ".claude/skills/react-best-practices/references/rules/structure-early-return-render-branches.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18749,
+    "title": "Improve gh-triage - Add merge confidence to maintainers notes",
+    "author": "TheIsrael1",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18749",
+    "additions": 46,
+    "deletions": 16,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".mastracode/commands/gh-triage.md",
+      ".mastracode/shared/pr-review-context.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18748,
+    "title": "chore(docs): Add missing 'id' property to agent constructors",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18748",
+    "additions": 120,
+    "deletions": 10,
+    "changedFiles": 66,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/references/STYLEGUIDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18739,
+    "title": "Improve gh-triage to support maintainer fixes",
+    "author": "TheIsrael1",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18739",
+    "additions": 19,
+    "deletions": 6,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".mastracode/commands/gh-triage.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18692,
+    "title": "OSS MastraCode gh-triage command",
+    "author": "TheIsrael1",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18692",
+    "additions": 349,
+    "deletions": 52,
+    "changedFiles": 8,
+    "artifact_files": [
+      ".mastracode/commands/critique-pr.md",
+      ".mastracode/commands/gh-debug-issue.md",
+      ".mastracode/commands/gh-triage.md",
+      ".mastracode/commands/pr-triage.md",
+      ".mastracode/commands/selfreview.md",
+      ".mastracode/shared/issue-debug-context.md",
+      ".mastracode/shared/pr-review-context.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18722,
+    "title": "chore(docs): Augment redirects with /llms.txt variants",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18722",
+    "additions": 1573,
+    "deletions": 31,
+    "changedFiles": 10,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/SKILL.md",
+      ".claude/skills/mastra-docs/references/STYLEGUIDE.md",
+      "docs/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18700,
+    "title": "chore(docs): Improve internal agent hints for linting",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18700",
+    "additions": 9,
+    "deletions": 4,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/SKILL.md",
+      "docs/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18668,
+    "title": "chore: Fine-tune agent model ID instructions",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18668",
+    "additions": 3,
+    "deletions": 3,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/references/STYLEGUIDE.md",
+      "AGENTS.md",
+      "docs/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18514,
+    "title": "test(playground): standardize the E2E suite on a lint-enforced BDD structure and scale it in CI",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18514",
+    "additions": 4048,
+    "deletions": 3459,
+    "changedFiles": 63,
+    "artifact_files": [
+      ".claude/skills/e2e-tests-studio/SKILL.md",
+      "packages/playground/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18426,
+    "title": "docs(react-best-practices): add derive-props-dont-pass rule",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18426",
+    "additions": 47,
+    "deletions": 8,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/react-best-practices/references/rules/structure-derive-dont-duplicate.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18406,
+    "title": "docs: clarify test cast guidance",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18406",
+    "additions": 18,
+    "deletions": 13,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/skills/playground-msw-tests/SKILL.md",
+      ".claude/skills/react-best-practices/references/rules/testing-bdd-no-mocks.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18369,
+    "title": "chore: deduplicate best practice skill references",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18369",
+    "additions": 129,
+    "deletions": 1075,
+    "changedFiles": 6,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/tailwind-best-practices/SKILL.md",
+      ".claude/skills/tailwind-best-practices/references/rules/classname-no-ds-override.md",
+      ".claude/skills/tailwind-best-practices/references/rules/tokens-no-modification.md",
+      ".claude/skills/tailwind-best-practices/references/tailwind-best-practices-reference.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 18405,
+    "title": "docs: discourage implementation-mirror tests",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18405",
+    "additions": 4,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/playground-msw-tests/SKILL.md",
+      ".claude/skills/react-best-practices/references/rules/testing-bdd-no-mocks.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 18383,
+    "title": "docs(playground): require react-best-practices skill and a test-first BDD/MSW workflow",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18383",
+    "additions": 28,
+    "deletions": 30,
+    "changedFiles": 1,
+    "artifact_files": [
+      "packages/playground/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17836,
+    "title": "feat(core): make agentic-loop serialization-safe on the evented engine",
+    "author": "taofeeq-deru",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17836",
+    "additions": 4631,
+    "deletions": 161,
+    "changedFiles": 53,
+    "artifact_files": [
+      "packages/core/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18342,
+    "title": "Enforce no-mock BDD tests in the playground via a lint rule",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18342",
+    "additions": 6101,
+    "deletions": 5547,
+    "changedFiles": 187,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/react-best-practices/references/rules/testing-bdd-no-mocks.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18121,
+    "title": "fix(agent): preserve durable agent tools when the editor forks for stored overrides",
+    "author": "serhiizghama",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18121",
+    "additions": 224,
+    "deletions": 3,
+    "changedFiles": 6,
+    "artifact_files": [
+      "AGENTS.md",
+      "packages/core/AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 18292,
+    "title": "fix(playground): render tool args as static code",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18292",
+    "additions": 200,
+    "deletions": 7,
+    "changedFiles": 7,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/react-best-practices/references/rules/structure-component-naming.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 18276,
+    "title": "feat(core): expand AIMock regression scenario suite to 166 tests across 78 files",
+    "author": "abhiaiyer91",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18276",
+    "additions": 12634,
+    "deletions": 0,
+    "changedFiles": 92,
+    "artifact_files": [
+      "packages/core/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 18277,
+    "title": "style(core): fix prettier formatting in durable agent files",
+    "author": "abhiaiyer91",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/18277",
+    "additions": 19,
+    "deletions": 7,
+    "changedFiles": 5,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 17981,
+    "title": "fix(mastracode): instruct critique-pr to present drafted review comment inline",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17981",
+    "additions": 3,
+    "deletions": 3,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".mastracode/commands/critique-pr.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 17865,
+    "title": "docs(smoke-test skill): refresh local-setup and document browser-agent runtime requirement",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17865",
+    "additions": 70,
+    "deletions": 11,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/references/local-setup.md",
+      ".claude/skills/mastra-smoke-test/references/tests/agents.md",
+      ".claude/skills/mastra-smoke-test/references/tests/setup.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17773,
+    "title": "chore(docs): Fix styleguide issues",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17773",
+    "additions": 267,
+    "deletions": 263,
+    "changedFiles": 123,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/references/STYLEGUIDE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17430,
+    "title": "feat(playground-ui): CodeBlock as canonical code surface with CSS-driven light/dark highlighting",
+    "author": "damien-schneider",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17430",
+    "additions": 459,
+    "deletions": 162,
+    "changedFiles": 17,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/react-best-practices/references/rules/structure-single-responsibility.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 17736,
+    "title": "docs(skills): add state-reset and single-responsibility rules to react-best-practices",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17736",
+    "additions": 389,
+    "deletions": 3,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/skills/react-best-practices/SKILL.md",
+      ".claude/skills/react-best-practices/references/react-best-practices-reference.md",
+      ".claude/skills/react-best-practices/references/rules/rerender-no-useeffect-state-reset.md",
+      ".claude/skills/react-best-practices/references/rules/structure-single-responsibility.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17713,
+    "title": "chore(docs): Improve Code mode wording",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17713",
+    "additions": 274,
+    "deletions": 56,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/references/REFERENCE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17588,
+    "title": "docs(skills): add changeset guidance to pr-splitter skill",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17588",
+    "additions": 19,
+    "deletions": 1,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/pr-splitter/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17477,
+    "title": "chore: move agent-SDK packages to top-level agent-sdks folder",
+    "author": "abhiaiyer91",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17477",
+    "additions": 128,
+    "deletions": 127,
+    "changedFiles": 45,
+    "artifact_files": [
+      "agent-sdks/acp/AGENTS.md",
+      "agent-sdks/claude/AGENTS.md",
+      "agent-sdks/cursor/AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 17406,
+    "title": "perf(playground): shrink studio editor bundle and speed up playground-ui build",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17406",
+    "additions": 182,
+    "deletions": 316,
+    "changedFiles": 11,
+    "artifact_files": [
+      "packages/playground-ui/AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 17246,
+    "title": "feat(agent-builder): fast-followups — smoke-test skill alignment + product fixes",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17246",
+    "additions": 293,
+    "deletions": 238,
+    "changedFiles": 21,
+    "artifact_files": [
+      ".claude/skills/builder-smoke-test/SKILL.md",
+      ".claude/skills/builder-smoke-test/assets/template/src/mastra/index.ts",
+      ".claude/skills/builder-smoke-test/references/agents.md",
+      ".claude/skills/builder-smoke-test/references/auth.md",
+      ".claude/skills/builder-smoke-test/references/defaults.md",
+      ".claude/skills/builder-smoke-test/references/favorites.md",
+      ".claude/skills/builder-smoke-test/references/infrastructure.md",
+      ".claude/skills/builder-smoke-test/references/model-policy.md",
+      ".claude/skills/builder-smoke-test/references/permissions.md",
+      ".claude/skills/builder-smoke-test/references/picker-allowlist.md",
+      ".claude/skills/builder-smoke-test/references/registry.md",
+      ".claude/skills/builder-smoke-test/references/skills.md",
+      ".claude/skills/builder-smoke-test/references/stars.md",
+      ".claude/skills/builder-smoke-test/references/ui.md",
+      ".claude/skills/builder-smoke-test/references/workspace.md",
+      ".claude/skills/builder-smoke-test/scripts/scaffold.sh",
+      ".claude/skills/builder-smoke-test/scripts/wait-for-server.sh"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 17204,
+    "title": "Move agent model settings into the chat composer",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17204",
+    "additions": 752,
+    "deletions": 463,
+    "changedFiles": 10,
+    "artifact_files": [
+      "packages/playground/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 17095,
+    "title": "docs: clarify example dev command",
+    "author": "DanielSLew",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17095",
+    "additions": 7,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "examples/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 17056,
+    "title": "feat(playground): add Agent Builder create page",
+    "author": "mfrachet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17056",
+    "additions": 1517,
+    "deletions": 26,
+    "changedFiles": 32,
+    "artifact_files": [
+      ".claude/skills/playground-msw-tests/SKILL.md",
+      "AGENTS.md",
+      "packages/playground-ui/AGENTS.md",
+      "packages/playground-ui/CLAUDE.md",
+      "packages/playground/AGENTS.md",
+      "packages/playground/CLAUDE.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 17032,
+    "title": "fix: preserve unresolved slash command references and update pr-triage command",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/17032",
+    "additions": 62,
+    "deletions": 14,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".mastracode/commands/pr-triage.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 16988,
+    "title": "docs: rephrase model token instruction positively in AGENTS.md",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16988",
+    "additions": 1,
+    "deletions": 1,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 16932,
+    "title": "docs: add shared model tokens via remark plugin for single-source model updates",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16932",
+    "additions": 412,
+    "deletions": 335,
+    "changedFiles": 142,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16926,
+    "title": "chore: refine critique and debugging instructions",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16926",
+    "additions": 42,
+    "deletions": 18,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/debugging-difficult-bugs/SKILL.md",
+      ".mastracode/commands/critique-pr.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 16749,
+    "title": "feat(server,editor,core): favorites API surface + scope/JSDoc fixes (STACK-3)",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16749",
+    "additions": 996,
+    "deletions": 21,
+    "changedFiles": 18,
+    "artifact_files": [
+      ".claude/skills/builder-smoke-test/scripts/seed-multi-user.sh"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16579,
+    "title": "chore(skills): add builder-smoke-test skill for Agent Builder",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16579",
+    "additions": 3957,
+    "deletions": 100,
+    "changedFiles": 31,
+    "artifact_files": [
+      ".claude/skills/builder-smoke-test/SKILL.md",
+      ".claude/skills/builder-smoke-test/assets/template/package.json",
+      ".claude/skills/builder-smoke-test/assets/template/src/mastra/agents/index.ts",
+      ".claude/skills/builder-smoke-test/assets/template/src/mastra/auth.ts",
+      ".claude/skills/builder-smoke-test/assets/template/src/mastra/index.ts",
+      ".claude/skills/builder-smoke-test/assets/template/src/mastra/tools/index.ts",
+      ".claude/skills/builder-smoke-test/assets/template/src/mastra/workflows/index.ts",
+      ".claude/skills/builder-smoke-test/assets/template/tsconfig.json",
+      ".claude/skills/builder-smoke-test/references/agents.md",
+      ".claude/skills/builder-smoke-test/references/auth.md",
+      ".claude/skills/builder-smoke-test/references/channels.md",
+      ".claude/skills/builder-smoke-test/references/defaults.md",
+      ".claude/skills/builder-smoke-test/references/infrastructure.md",
+      ".claude/skills/builder-smoke-test/references/model-policy.md",
+      ".claude/skills/builder-smoke-test/references/permissions.md",
+      ".claude/skills/builder-smoke-test/references/picker-allowlist.md",
+      ".claude/skills/builder-smoke-test/references/reconciliation.md",
+      ".claude/skills/builder-smoke-test/references/registry.md",
+      ".claude/skills/builder-smoke-test/references/setup.md",
+      ".claude/skills/builder-smoke-test/references/skills.md",
+      ".claude/skills/builder-smoke-test/references/stars.md",
+      ".claude/skills/builder-smoke-test/references/ui.md",
+      ".claude/skills/builder-smoke-test/references/workspace.md",
+      ".claude/skills/builder-smoke-test/scripts/preflight.sh",
+      ".claude/skills/builder-smoke-test/scripts/scaffold.sh",
+      ".claude/skills/builder-smoke-test/scripts/seed-multi-user.sh",
+      ".claude/skills/builder-smoke-test/scripts/wait-for-server.sh"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16534,
+    "title": "chore: add CodeRabbit local review guidance",
+    "author": "mbenhamd",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16534",
+    "additions": 1,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 16456,
+    "title": "Add PR review workflow skills",
+    "author": "smthomas",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16456",
+    "additions": 265,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/pr-explainer/SKILL.md",
+      ".claude/skills/pr-splitter/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 15751,
+    "title": "Add testing skill for core processors",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15751",
+    "additions": 109,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".agents/skills/testing-core-processors/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16223,
+    "title": "draft: Add MastraPlatformExporter and MastraStorageExporter, deprecate CloudExporter and DefaultExporter",
+    "author": "epinzur",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16223",
+    "additions": 5110,
+    "deletions": 257,
+    "changedFiles": 74,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/references/tests/traces.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16322,
+    "title": "fix: keep goal commands and user choices intact",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16322",
+    "additions": 113,
+    "deletions": 193,
+    "changedFiles": 12,
+    "artifact_files": [
+      ".mastracode/commands/pr-triage.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 16065,
+    "title": "feat(mastracode): add /goal slash command for persistent cross-turn goals (Ralph loop)",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16065",
+    "additions": 3017,
+    "deletions": 94,
+    "changedFiles": 43,
+    "artifact_files": [
+      ".mastracode/commands/pr-triage.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16225,
+    "title": "docs: add self-review slash command",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16225",
+    "additions": 34,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/commands/selfreview.md",
+      ".mastracode/commands/selfreview.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 16208,
+    "title": "fix(ci): validate core peer compatibility",
+    "author": "wardpeet",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16208",
+    "additions": 459,
+    "deletions": 77,
+    "changedFiles": 33,
+    "artifact_files": [
+      "packages/server/AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 16130,
+    "title": "chore(docs): Remove incorrect \"Added in\"",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/16130",
+    "additions": 4,
+    "deletions": 10,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/references/REFERENCE.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15991,
+    "title": "docs: add difficult bug debugging skill",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15991",
+    "additions": 172,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/debugging-difficult-bugs/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 15997,
+    "title": "Update mastracode TUI testing skill with rendering test tips",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15997",
+    "additions": 31,
+    "deletions": 2,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/testing-mastracode-tui/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15938,
+    "title": "docs: expand smoke test release guidance",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15938",
+    "additions": 958,
+    "deletions": 9,
+    "changedFiles": 11,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/SKILL.md",
+      ".claude/skills/mastra-smoke-test/references/alpha-publish.md",
+      ".claude/skills/mastra-smoke-test/references/alpha-versioning-pr.md",
+      ".claude/skills/mastra-smoke-test/references/release-scope-discovery.md",
+      ".claude/skills/mastra-smoke-test/references/release-smoke.md",
+      ".claude/skills/mastra-smoke-test/references/stable-partial-publish-recovery.md",
+      ".claude/skills/mastra-smoke-test/references/stable-release-smoke.md",
+      ".claude/skills/mastra-smoke-test/references/storage-provider-migration-smoke.md",
+      ".claude/skills/mastra-smoke-test/references/targeted-feature-smoke.md",
+      ".claude/skills/mastra-smoke-test/scripts/check-versioning-pr.sh",
+      ".claude/skills/mastra-smoke-test/scripts/discover-release-scope.sh"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15931,
+    "title": "feat(mastracode): add critique-pr slash command",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15931",
+    "additions": 135,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/commands/critique-pr.md",
+      ".mastracode/commands/critique-pr.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 15730,
+    "title": "feat(core,mastracode): add ProviderHistoryCompat error processor with extensible rule architecture",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15730",
+    "additions": 600,
+    "deletions": 2,
+    "changedFiles": 7,
+    "artifact_files": [
+      ".claude/skills/testing-core-processors/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 15752,
+    "title": "Add testing skill for mastracode TUI",
+    "author": "devin-ai-integration[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15752",
+    "additions": 114,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/testing-mastracode-tui/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 15602,
+    "title": "fix(deps): pin @vercel/oidc to 3.1.0 to unblock E2E",
+    "author": "abhiaiyer91",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15602",
+    "additions": 12,
+    "deletions": 16,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/references/tests/errors.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 15599,
+    "title": "docs(smoke-test-skill): add curl/API variants for --skip-browser mode",
+    "author": "abhiaiyer91",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15599",
+    "additions": 413,
+    "deletions": 1,
+    "changedFiles": 9,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/references/local-setup.md",
+      ".claude/skills/mastra-smoke-test/references/tests/agents.md",
+      ".claude/skills/mastra-smoke-test/references/tests/errors.md",
+      ".claude/skills/mastra-smoke-test/references/tests/mcp.md",
+      ".claude/skills/mastra-smoke-test/references/tests/memory.md",
+      ".claude/skills/mastra-smoke-test/references/tests/scorers.md",
+      ".claude/skills/mastra-smoke-test/references/tests/tools.md",
+      ".claude/skills/mastra-smoke-test/references/tests/traces.md",
+      ".claude/skills/mastra-smoke-test/references/tests/workflows.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15572,
+    "title": "chore(docs): Move styleguides & simplify",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15572",
+    "additions": 973,
+    "deletions": 1513,
+    "changedFiles": 16,
+    "artifact_files": [
+      ".claude/skills/mastra-docs/SKILL.md",
+      ".claude/skills/mastra-docs/references/DOC.md",
+      ".claude/skills/mastra-docs/references/GUIDE_DEPLOYMENT.md",
+      ".claude/skills/mastra-docs/references/GUIDE_INTEGRATION.md",
+      ".claude/skills/mastra-docs/references/GUIDE_QUICKSTART.md",
+      ".claude/skills/mastra-docs/references/GUIDE_TUTORIAL.md",
+      ".claude/skills/mastra-docs/references/REFERENCE.md",
+      ".claude/skills/mastra-docs/references/STYLEGUIDE.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 15464,
+    "title": "chore: enforce AGENTS.md token limits",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15464",
+    "additions": 811,
+    "deletions": 1195,
+    "changedFiles": 17,
+    "artifact_files": [
+      "AGENTS.md",
+      "docs/AGENTS.md",
+      "packages/auth/AGENTS.md",
+      "packages/cli/AGENTS.md",
+      "packages/codemod/.claude/skills/codemod-patterns/SKILL.md",
+      "packages/codemod/AGENTS.md",
+      "packages/core/AGENTS.md",
+      "packages/mcp/AGENTS.md",
+      "packages/memory/AGENTS.md",
+      "packages/playground-ui/AGENTS.md",
+      "packages/playground/AGENTS.md",
+      "packages/rag/AGENTS.md",
+      "packages/server/AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15434,
+    "title": "chore(repo): Cleanup files",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15434",
+    "additions": 22,
+    "deletions": 5801,
+    "changedFiles": 51,
+    "artifact_files": [
+      "CLAUDE.md",
+      "docs/CLAUDE.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 15311,
+    "title": "docs: expose commands and skills in AGENTS.md for cross-agent parity",
+    "author": "graysonhicks",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15311",
+    "additions": 29,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15297,
+    "title": "chore: Update Mastra Cloud references",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15297",
+    "additions": 333,
+    "deletions": 349,
+    "changedFiles": 94,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/references/architecture.md",
+      ".claude/skills/mastra-smoke-test/references/tests/setup.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 15158,
+    "title": "feat: restructure mastra-smoke-test skill with mandatory checklists and modular references",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15158",
+    "additions": 1644,
+    "deletions": 651,
+    "changedFiles": 16,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/SKILL.md",
+      ".claude/skills/mastra-smoke-test/references/cloud-advanced.md",
+      ".claude/skills/mastra-smoke-test/references/cloud-deploy.md",
+      ".claude/skills/mastra-smoke-test/references/common-errors.md",
+      ".claude/skills/mastra-smoke-test/references/gateway-memory-testing.md",
+      ".claude/skills/mastra-smoke-test/references/tests/agents.md",
+      ".claude/skills/mastra-smoke-test/references/tests/errors.md",
+      ".claude/skills/mastra-smoke-test/references/tests/mcp.md",
+      ".claude/skills/mastra-smoke-test/references/tests/memory.md",
+      ".claude/skills/mastra-smoke-test/references/tests/scorers.md",
+      ".claude/skills/mastra-smoke-test/references/tests/server.md",
+      ".claude/skills/mastra-smoke-test/references/tests/setup.md",
+      ".claude/skills/mastra-smoke-test/references/tests/studio.md",
+      ".claude/skills/mastra-smoke-test/references/tests/tools.md",
+      ".claude/skills/mastra-smoke-test/references/tests/traces.md",
+      ".claude/skills/mastra-smoke-test/references/tests/workflows.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 15143,
+    "title": "feat: unified mastra-smoke-test skill for local and cloud testing",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15143",
+    "additions": 1227,
+    "deletions": 286,
+    "changedFiles": 11,
+    "artifact_files": [
+      ".claude/skills/mastra-smoke-test/SKILL.md",
+      ".claude/skills/mastra-smoke-test/references/architecture.md",
+      ".claude/skills/mastra-smoke-test/references/cloud-advanced.md",
+      ".claude/skills/mastra-smoke-test/references/cloud-deploy.md",
+      ".claude/skills/mastra-smoke-test/references/common-errors.md",
+      ".claude/skills/mastra-smoke-test/references/environment-variables.md",
+      ".claude/skills/mastra-smoke-test/references/gateway-memory-testing.md",
+      ".claude/skills/mastra-smoke-test/references/gcp-debugging.md",
+      ".claude/skills/mastra-smoke-test/references/local-setup.md",
+      ".claude/skills/mastra-smoke-test/scripts/test-server.sh",
+      ".claude/skills/mastracode-smoke-test/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 15036,
+    "title": "feat(mastracode): add browser automation support",
+    "author": "NikAiyer",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/15036",
+    "additions": 915,
+    "deletions": 72,
+    "changedFiles": 21,
+    "artifact_files": [
+      ".claude/skills/mastracode-smoke-test/SKILL.md",
+      ".claude/skills/smoke-test/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 14995,
+    "title": "fix: keep sealed OM chunks split after buffering",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/14995",
+    "additions": 2136,
+    "deletions": 25,
+    "changedFiles": 8,
+    "artifact_files": [
+      "packages/memory/AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 14669,
+    "title": "feat(docs): Studio category",
+    "author": "LekoArts",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/14669",
+    "additions": 1049,
+    "deletions": 644,
+    "changedFiles": 108,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 14790,
+    "title": "fix: cap injected AGENTS.md reminders",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/14790",
+    "additions": 299,
+    "deletions": 36,
+    "changedFiles": 7,
+    "artifact_files": [
+      "packages/core/AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 14637,
+    "title": "feat: add dynamic AGENTS.md loading in mastracode",
+    "author": "TylerBarnes",
+    "state": "MERGED",
+    "url": "https://github.com/mastra-ai/mastra/pull/14637",
+    "additions": 1728,
+    "deletions": 98,
+    "changedFiles": 31,
+    "artifact_files": [
+      "AGENTS.md",
+      "packages/auth/AGENTS.md",
+      "packages/cli/AGENTS.md",
+      "packages/core/AGENTS.md",
+      "packages/mcp/AGENTS.md",
+      "packages/memory/AGENTS.md",
+      "packages/playground-ui/AGENTS.md",
+      "packages/playground/AGENTS.md",
+      "packages/rag/AGENTS.md",
+      "packages/server/AGENTS.md"
+    ],
+    "category": "feature"
+  }
+]

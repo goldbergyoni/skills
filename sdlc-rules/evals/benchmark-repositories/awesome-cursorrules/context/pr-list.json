@@ -1,0 +1,1145 @@
+[
+  {
+    "number": 334,
+    "title": "Add Reference First rule to Build Tools and Development",
+    "author": "southyang99",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/334",
+    "additions": 26,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/reference-first.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 333,
+    "title": "Add DesignOS design intelligence rule",
+    "author": "ardamoustafa1",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/333",
+    "additions": 44,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/designos-design-intelligence.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 332,
+    "title": "feat: add Nika workflow language rule (.nika.yaml authoring)",
+    "author": "ThibautMelen",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/332",
+    "additions": 24,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/nika-workflow-language.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 331,
+    "title": "Add Zelda BOTW (Sheikah Slate) UI style rule",
+    "author": "chaos-xxl",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/331",
+    "additions": 65,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/zelda-botw-sheikah-slate-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 329,
+    "title": "Add Cosmosmith multi-agent workflow rule",
+    "author": "devnomad-byte",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/329",
+    "additions": 67,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/cosmosmith-multi-agent-workflow.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 326,
+    "title": "Add Cursor rule for LangGraph in TypeScript",
+    "author": "Nyx-abu",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/326",
+    "additions": 101,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/langgraph-typescript.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 323,
+    "title": "Add Next.js AI SaaS stack cursor rules (.mdc Edition)",
+    "author": "irsyad-aulia",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/323",
+    "additions": 26,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/rules/nextjs-ai-saas/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 319,
+    "title": "Add operating-method, code-change-discipline, and ship-and-recover rules",
+    "author": "Sharrmavishal",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/319",
+    "additions": 81,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/code-change-discipline.mdc",
+      "rules/operating-method.mdc",
+      "rules/ship-and-recover.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 318,
+    "title": "Add Remote GPU Rental Training rule (rented/spot instance ops)",
+    "author": "Hanyuyuan6",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/318",
+    "additions": 61,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/remote-gpu-rental-training.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 317,
+    "title": "Add Xquik MCP Cursor rule",
+    "author": "kriptoburak",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/317",
+    "additions": 55,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/xquik-mcp-x-research.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 316,
+    "title": "docs: add agentchecker CLI for rule alignment",
+    "author": "moisesvalero",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/316",
+    "additions": 40,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/agent-instruction-alignment-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 315,
+    "title": "Add StyleSeed design rules (CSS and Styling)",
+    "author": "bitjaru",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/315",
+    "additions": 92,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/styleseed-design-engine-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 313,
+    "title": "Add Equity Compensation Tax rule",
+    "author": "AlvisoOculus",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/313",
+    "additions": 56,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/equity-compensation-tax.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 311,
+    "title": "Add DOS Verify Done-Claims rule (gate agent done-claims on git ground truth)",
+    "author": "anthony-chaudhary",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/311",
+    "additions": 37,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/dos-verify-done-claims-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 310,
+    "title": "docs: add AI Agent Skills Framework to registry",
+    "author": "luoning",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/310",
+    "additions": 21,
+    "deletions": 2,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/ai-agent-skills-framework.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 309,
+    "title": "Add VibeRaven production readiness gate rule",
+    "author": "ohad6k",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/309",
+    "additions": 66,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/viberaven-production-readiness-gate.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 308,
+    "title": "Add Next.js + TypeScript rules (annotated, with enforcement hooks)",
+    "author": "iPythoning",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/308",
+    "additions": 56,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/nextjs-typescript-annotated-enforced-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 307,
+    "title": "Add Appium mobile test automation rule",
+    "author": "tugkanboz",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/307",
+    "additions": 62,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/appium-mobile-testing-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 306,
+    "title": "Add k6 performance and load testing rule",
+    "author": "tugkanboz",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/306",
+    "additions": 61,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/k6-performance-load-testing-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 305,
+    "title": "Add AI coding agent baseline rule",
+    "author": "758302-tech",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/305",
+    "additions": 49,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/ai-coding-agent-baseline.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 303,
+    "title": "Add Ship with AI rules: Next.js 15 + shadcn/ui, FastAPI + SQLAlchemy 2.0, React Native + Expo",
+    "author": "thebuilderlabs",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/303",
+    "additions": 1145,
+    "deletions": 0,
+    "changedFiles": 4,
+    "artifact_files": [
+      "rules/nextjs15-shadcn-tailwindv4-drizzle-cursorrules-prompt-file.mdc",
+      "rules/python-fastapi-sqlalchemy2-pydantic2-cursorrules-prompt-file.mdc",
+      "rules/react-native-expo-sdk52-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 302,
+    "title": "Add Architectural Decision Governance rule",
+    "author": "TheoV823",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/302",
+    "additions": 45,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/architectural-decision-governance.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 301,
+    "title": "feat: add Full-Stack AI Engineering Playbook rules",
+    "author": "hashem-cruncher",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/301",
+    "additions": 34,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/fullstack-ai-engineering-playbook.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 300,
+    "title": "Add React/Next.js, TypeScript, Python, Go production rules",
+    "author": "oliviacraft",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/300",
+    "additions": 36,
+    "deletions": 0,
+    "changedFiles": 4,
+    "artifact_files": [
+      "rules/go-production/.cursorrules",
+      "rules/python-fastapi-production/.cursorrules",
+      "rules/react-nextjs-production/.cursorrules",
+      "rules/typescript-strict-production/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 298,
+    "title": "Add NativeWind and Expo Router cursorrules under Mobile Development",
+    "author": "sanketsahu",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/298",
+    "additions": 180,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/expo-router-cursorrules-prompt-file.mdc",
+      "rules/nativewind-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 297,
+    "title": "Add gluestack-ui cursorrules under Mobile Development",
+    "author": "sanketsahu",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/297",
+    "additions": 135,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/gluestack-ui-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 295,
+    "title": "Add piia-engram-cross-tool-memory rules",
+    "author": "Patdolitse",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/295",
+    "additions": 70,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/piia-engram-cross-tool-memory.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 294,
+    "title": "Add pgfence Postgres migration safety rule",
+    "author": "flvmnt",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/294",
+    "additions": 190,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/pgfence-postgres-migration-safety.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 292,
+    "title": "feat: add Network Troubleshooting skill (.mdc rule)",
+    "author": "CacinieP",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/292",
+    "additions": 184,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/network-troubleshoot.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 291,
+    "title": "Add C#/.NET architectural guardrails rule",
+    "author": "agenticstandardcontact-byte",
+    "state": "OPEN",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/291",
+    "additions": 91,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/csharp-dotnet-architecture.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 289,
+    "title": "Add TokRepo agent-discovery rule \u2014 discover_before_build for reusable artifacts",
+    "author": "henu-wang",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/289",
+    "additions": 33,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/tokrepo-agent-discovery-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 288,
+    "title": "[codex] add state management cursor rules",
+    "author": "PatrickJS",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/288",
+    "additions": 245,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/react-zustand-cursorrules-prompt-file.mdc",
+      "rules/vue-pinia-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 287,
+    "title": "Add Anti-Sycophancy Code Discipline rules under Build Tools and Development",
+    "author": "ejentum",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/287",
+    "additions": 39,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/anti-sycophancy-code-discipline-cursorrules-prompt-file.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 286,
+    "title": "Restructure rules: consolidate, rename, and clean files",
+    "author": "PatrickJS",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/286",
+    "additions": 22491,
+    "deletions": 38170,
+    "changedFiles": 1558,
+    "artifact_files": [
+      "rules/ai-agent-specialist.mdc",
+      "rules/ai-agent-specialist/.cursorrules",
+      "rules/alpha-skills-quant-factor-research.mdc",
+      "rules/alpha-skills-quant-factor-research/.cursorrules",
+      "rules/android-jetpack-compose-cursorrules-prompt-file.mdc",
+      "rules/android-jetpack-compose-cursorrules-prompt-file/.cursorrules",
+      "rules/android-jetpack-compose-cursorrules-prompt-file/android---project-structure.mdc",
+      "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---general-best-practices.mdc",
+      "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---performance-guidelines.mdc",
+      "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---testing-guidelines.mdc",
+      "rules/android-jetpack-compose-cursorrules-prompt-file/android-jetpack-compose---ui-guidelines.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/.cursorrules",
+      "rules/angular-novo-elements-cursorrules-prompt-file/README.md",
+      "rules/angular-novo-elements-cursorrules-prompt-file/angular-standalone-component-rules.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/code-style-and-formatting-rules.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/debugging-and-testing-rules.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/development-process-rules.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/general-behavior-rules.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/general-coding-principles.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/novo-elements-integration-rules.mdc",
+      "rules/angular-novo-elements-cursorrules-prompt-file/project-structure-rules.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/.cursorrules",
+      "rules/angular-typescript-cursorrules-prompt-file/README.md",
+      "rules/angular-typescript-cursorrules-prompt-file/accessibility-guidelines.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/angular-general.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/angular-template-hints.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/general-reasoning.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/performance-optimization.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/refactoring-existing-code.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/testing-guidelines.mdc",
+      "rules/angular-typescript-cursorrules-prompt-file/typescript-coding-style.mdc",
+      "rules/ankra-cli.mdc",
+      "rules/anti-overengineering.mdc",
+      "rules/ascii-simulation-game-cursorrules-prompt-file.mdc",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/.cursorrules",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/README.md",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/army-and-battle-mechanics-rule.mdc",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/core-game-mechanics-rule.mdc",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/data-tracking-and-charts-rule.mdc",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/general-game-design-and-programming-rules.mdc",
+      "rules/ascii-simulation-game-cursorrules-prompt-file/visual-and-observational-rules.mdc",
+      "rules/aspnet-abp-cursorrules-prompt-file.mdc",
+      "rules/aspnet-abp-cursorrules-prompt-file/.cursorrules",
+      "rules/aspnet-abp-cursorrules-prompt-file/README.md",
+      "rules/astro-typescript-cursorrules-prompt-file.mdc",
+      "rules/astro-typescript-cursorrules-prompt-file/.cursorrules",
+      "rules/astro-typescript-cursorrules-prompt-file/README.md",
+      "rules/astro-typescript-cursorrules-prompt-file/astro-development-guidelines.mdc",
+      "rules/astro-typescript-cursorrules-prompt-file/commit-message-guidelines.mdc",
+      "rules/astro-typescript-cursorrules-prompt-file/custom-slash-commands.mdc",
+      "rules/astro-typescript-cursorrules-prompt-file/general-coding-style.mdc",
+      "rules/astro-typescript-cursorrules-prompt-file/tailwindcss-styling-guidelines.mdc",
+      "rules/astro-typescript-cursorrules-prompt-file/typescript-development-guidelines.mdc",
+      "rules/automl-hyperparameter-optimization.mdc",
+      "rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file.mdc",
+      "rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file/.cursorrules",
+      "rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file/README.md",
+      "rules/beefreeSDK.mdc",
+      "rules/blender-python-addon.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/.cursorrules",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/README.md",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/browser-api-usage-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/chrome-extension-general-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/code-output-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/extension-architecture-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/javascript-typescript-code-style.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/manifest-and-permissions-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/performance-optimization-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/security-and-privacy-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/typescript-usage-rules.mdc",
+      "rules/chrome-extension-dev-js-typescript-cursorrules-pro/ui-and-styling-rules.mdc",
+      "rules/clean-code.mdc",
+      "rules/cloudflare-email-telegram-cursorrules-prompt-file.mdc",
+      "rules/cloudflare-email-telegram-cursorrules-prompt-file/.cursorrules",
+      "rules/cloudflare-email-telegram-cursorrules-prompt-file/README.md",
+      "rules/cloudflare-workers-hono-angular-saas-cursorrules-prompt-file.mdc",
+      "rules/cloudflare-workers-hono-angular-saas-cursorrules-prompt-file/.cursorrules",
+      "rules/code-guidelines-cursorrules-prompt-file.mdc",
+      "rules/code-guidelines-cursorrules-prompt-file/.cursorrules",
+      "rules/code-guidelines-cursorrules-prompt-file/README.md",
+      "rules/code-guidelines-cursorrules-prompt-file/general-coding-rules.mdc",
+      "rules/code-pair-interviews.mdc",
+      "rules/code-pair-interviews/.cursorrules"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 285,
+    "title": "Remove legacy Python FastAPI cursor rules",
+    "author": "PatrickJS",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/285",
+    "additions": 0,
+    "deletions": 180,
+    "changedFiles": 16,
+    "artifact_files": [
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/.cursorrules",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/README.md",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/error-handling-priorities.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-blocking-operations.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-components-and-validation.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-conditional-statements.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-dependencies.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-dependency-injection.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-file-structure.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-function-definitions.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-middleware.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-performance-metrics.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-performance-optimization.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-startup-and-shutdown-events.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/python-general-style.mdc"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 284,
+    "title": "[codex] Fix actionable rule requests and repo hygiene",
+    "author": "PatrickJS",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/284",
+    "additions": 941,
+    "deletions": 262,
+    "changedFiles": 67,
+    "artifact_files": [
+      "rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file/.cursorrules",
+      "rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file/README.md",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/.cursorrules",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/README.md",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/error-handling-priorities.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-blocking-operations.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-components-and-validation.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-conditional-statements.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-dependencies.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-dependency-injection.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-file-structure.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-function-definitions.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-middleware.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-performance-metrics.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-performance-optimization.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/fastapi-startup-and-shutdown-events.mdc",
+      "rules/cursorrules-file-cursor-ai-python-fastapi-api/python-general-style.mdc",
+      "rules/deno-integration-techniques-cursorrules-prompt-fil/.cursorrules",
+      "rules/deno-integration-techniques-cursorrules-prompt-fil/project-overview-rule.mdc",
+      "rules/drupal-11-cursorrules-prompt-file/README.md",
+      "rules/manifest-yaml-cursorrules-prompt-file/.cursorrules",
+      "rules/manifest-yaml-cursorrules-prompt-file/README.md",
+      "rules/momen-cursurrules-prompt-file/momen-actionflow-gql-api-rules.mdc",
+      "rules/nextjs-react-tailwind-cursorrules-prompt-file/.cursorrules",
+      "rules/nextjs-react-tailwind-cursorrules-prompt-file/placeholder-images.mdc",
+      "rules/rails-cursorrules-prompt-file/.cursorrules",
+      "rules/rails-cursorrules-prompt-file/README.md",
+      "rules/solidity-react-blockchain-apps-cursorrules-prompt-/.cursorrules",
+      "rules/svelte-5-vs-svelte-4-cursorrules-prompt-file/.cursorrules",
+      "rules/vue-3-nuxt-3-typescript-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 280,
+    "title": "Add PR Review .cursorrules (security / performance / tests / architecture)",
+    "author": "Lucas2944",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/280",
+    "additions": 99,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/pr-review-cursorrules-prompt-file/.cursorrules",
+      "rules/pr-review-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 278,
+    "title": "Add Ejentum Reasoning Harness MCP rules under Utilities",
+    "author": "ejentum",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/278",
+    "additions": 146,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/ejentum-reasoning-harness-cursorrules-prompt-file/.cursorrules",
+      "rules/ejentum-reasoning-harness-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 277,
+    "title": "Add Great CTO \u2014 archetype-driven cursorrules with MCP integration",
+    "author": "avelikiy",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/277",
+    "additions": 98,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/great-cto-cursorrules-prompt-file/.cursorrules",
+      "rules/great-cto-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 276,
+    "title": "feat: add AgentsMesh cursor rules for universal AI config sync",
+    "author": "sampleXbro",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/276",
+    "additions": 94,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/agentsmesh-ai-config-sync-cursorrules-prompt-file/.cursorrules",
+      "rules/agentsmesh-ai-config-sync-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 273,
+    "title": "Add RTL (Right-to-Left) development cursorrules",
+    "author": "idanlevi1",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/273",
+    "additions": 63,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/rtl-right-to-left-i18n-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 272,
+    "title": "Add vibecodex FastAPI production architecture cursorrules",
+    "author": "yerdaulet-damir",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/272",
+    "additions": 224,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/vibecodex-fastapi-production-cursorrules-prompt-file/.cursorrules",
+      "rules/vibecodex-fastapi-production-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 271,
+    "title": "Add: React (FormEngine AI Form Builder) cursor rule",
+    "author": "lukinov",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/271",
+    "additions": 160,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/react-formengine-ai-form-builder-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 268,
+    "title": "Add EnigmAgent MCP \u2014 Local Secrets Vault cursor rules",
+    "author": "Agnuxo1",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/268",
+    "additions": 129,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/enigmagent-mcp-secrets-cursorrules-prompt-file/.cursorrules",
+      "rules/enigmagent-mcp-secrets-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 266,
+    "title": "Add Cloudflare Workers + Hono + Angular SaaS rules",
+    "author": "ProfessorManhattan",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/266",
+    "additions": 112,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/cloudflare-workers-hono-angular-saas-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 265,
+    "title": "Add AI Landing-Page Images .cursorrules (real stock photos via tteg)",
+    "author": "kiluazen",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/265",
+    "additions": 72,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/ai-landing-page-images-cursorrules-prompt-file/.cursorrules",
+      "rules/ai-landing-page-images-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 262,
+    "title": "Add Renowide Agent Marketplace cursorrules",
+    "author": "Renowide",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/262",
+    "additions": 246,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/renowide-agent-marketplace-cursorrules-prompt-file/README.md",
+      "rules/renowide-agent-marketplace-cursorrules-prompt-file/renowide.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 256,
+    "title": "Add vue-claude-stack (Vue/Nuxt full AI coding setup)",
+    "author": "mvtandas",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/256",
+    "additions": 137,
+    "deletions": 0,
+    "changedFiles": 4,
+    "artifact_files": [
+      "rules/vue-claude-stack/.cursorrules",
+      "rules/wordpress-claude-stack/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 255,
+    "title": "Add Helium MCP cursor rules",
+    "author": "connerlambden",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/255",
+    "additions": 63,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/helium-mcp-cursorrules-prompt-file/.cursorrules",
+      "rules/helium-mcp-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 254,
+    "title": "Add CodeFlow - Multi-Agent Orchestration with CDP Patrol Engine for Cursor IDE",
+    "author": "joinwell52-AI",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/254",
+    "additions": 169,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/codeflow-multi-agent-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 252,
+    "title": "feat: added React TanStack Router and Query cursorrules",
+    "author": "usm4nhafeez",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/252",
+    "additions": 521,
+    "deletions": 0,
+    "changedFiles": 5,
+    "artifact_files": [
+      "rules/react-tanstack-router-query-cursorrules-prompt-file/.cursorrules",
+      "rules/react-tanstack-router-query-cursorrules-prompt-file/README.md",
+      "rules/react-tanstack-router-query-cursorrules-prompt-file/react-tanstack-router-query.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 251,
+    "title": "feat: added Next.js TanStack Query cursorrules",
+    "author": "usm4nhafeez",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/251",
+    "additions": 452,
+    "deletions": 0,
+    "changedFiles": 5,
+    "artifact_files": [
+      "rules/nextjs-tanstack-query-cursorrules-prompt-file/.cursorrules",
+      "rules/nextjs-tanstack-query-cursorrules-prompt-file/README.md",
+      "rules/nextjs-tanstack-query-cursorrules-prompt-file/nextjs-tanstack-query.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 250,
+    "title": "feat: TanStack Start cursorrules",
+    "author": "usm4nhafeez",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/250",
+    "additions": 496,
+    "deletions": 0,
+    "changedFiles": 5,
+    "artifact_files": [
+      "rules/tanstack-start-cursorrules-prompt-file/.cursorrules",
+      "rules/tanstack-start-cursorrules-prompt-file/README.md",
+      "rules/tanstack-start-cursorrules-prompt-file/tanstack-start.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 248,
+    "title": "feat: added TanStack Router React cursorrules",
+    "author": "usm4nhafeez",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/248",
+    "additions": 388,
+    "deletions": 0,
+    "changedFiles": 5,
+    "artifact_files": [
+      "rules/tanstack-router-react-cursorrules-prompt-file/.cursorrules",
+      "rules/tanstack-router-react-cursorrules-prompt-file/README.md",
+      "rules/tanstack-router-react-cursorrules-prompt-file/tanstack-router.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 247,
+    "title": "feat: added TanStack Query v5 cursorrules",
+    "author": "usm4nhafeez",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/247",
+    "additions": 440,
+    "deletions": 0,
+    "changedFiles": 5,
+    "artifact_files": [
+      "rules/tanstack-query-v5-cursorrules-prompt-file/.cursorrules",
+      "rules/tanstack-query-v5-cursorrules-prompt-file/README.md",
+      "rules/tanstack-query-v5-cursorrules-prompt-file/tanstack-query.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 246,
+    "title": "feat: added Vercel deployment cursorrules",
+    "author": "usm4nhafeez",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/246",
+    "additions": 293,
+    "deletions": 0,
+    "changedFiles": 5,
+    "artifact_files": [
+      "rules/vercel-deployment-cursorrules-prompt-file/.cursorrules",
+      "rules/vercel-deployment-cursorrules-prompt-file/README.md",
+      "rules/vercel-deployment-cursorrules-prompt-file/vercel-deployment.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 243,
+    "title": "Add NestJS Anti-Hallucination Rules",
+    "author": "RolandiPkhakadze",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/243",
+    "additions": 254,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/nestjs-anti-hallucination-cursorrules-prompt-file/.cursorrules.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 242,
+    "title": "Add Alpha Skills \u2014 quantitative factor research skills",
+    "author": "VernonOY",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/242",
+    "additions": 22,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/alpha-skills-quant-factor-research/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 237,
+    "title": "Add TrustFoundry Legal Search API cursor rules",
+    "author": "iamgroot2285",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/237",
+    "additions": 46,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/trustfoundry-legal-search-api-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 232,
+    "title": "Add Cursor Rules Pack v2 \u2014 7 sample production-tested rules",
+    "author": "oliviacraft",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/232",
+    "additions": 58,
+    "deletions": 3,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/cursor-rules-pack-v2-cursorrules-prompt-file/.cursorrules",
+      "rules/cursor-rules-pack-v2-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 229,
+    "title": "Add code-tour AI walkthrough generation cursor rules",
+    "author": "vaddisrinivas",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/229",
+    "additions": 53,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/code-tour-ai-walkthrough-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 228,
+    "title": "Add framecraft demo video generation cursor rules",
+    "author": "vaddisrinivas",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/228",
+    "additions": 50,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/framecraft-demo-video-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 224,
+    "title": "Add trading algorithmic MQL/Python rules pack",
+    "author": "warcklian",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/224",
+    "additions": 167,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/trading-algoritmico-mql-python/Plantilla_Artefacto_Plan.md",
+      "rules/trading-algoritmico-mql-python/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 220,
+    "title": "Add Next.js 15 + Supabase architecture rules (Vibe Stack)",
+    "author": "vibestackdev",
+    "state": "MERGED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/220",
+    "additions": 158,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/nextjs15-supabase-cursorrules-prompt-file/.cursorrules",
+      "rules/nextjs15-supabase-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 219,
+    "title": "Add OSOP session logging rule",
+    "author": "Archie0125",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/219",
+    "additions": 214,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "rules/osop-session-logging-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 217,
+    "title": "Add Shipworthy production engineering guardrails cursorrules",
+    "author": "Vimalk0703",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/217",
+    "additions": 69,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/shipworthy-production-guardrails/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 216,
+    "title": "Add: AI Agent Specialist rules with WHY explanations",
+    "author": "elGuille",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/216",
+    "additions": 42,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "rules/ai-agent-specialist/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 214,
+    "title": "Add AKF \u2014 The AI Native File Format",
+    "author": "HMAKT99",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/214",
+    "additions": 87,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/akf-ai-native-file-format-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 212,
+    "title": "Add Strale agent-capabilities cursor rule",
+    "author": "petterlindstrom79",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/212",
+    "additions": 71,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/strale-agent-capabilities-cursorrules-prompt-file/.cursorrules",
+      "rules/strale-agent-capabilities-cursorrules-prompt-file/README.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 211,
+    "title": "Add Moyu anti-over-engineering cursor rules",
+    "author": "uucz",
+    "state": "CLOSED",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules/pull/211",
+    "additions": 56,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      "rules/moyu-anti-over-engineering-cursorrules-prompt-file/.cursorrules"
+    ],
+    "category": "feature"
+  }
+]

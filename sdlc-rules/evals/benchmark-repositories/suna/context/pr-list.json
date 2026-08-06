@@ -1,0 +1,552 @@
+[
+  {
+    "number": 5062,
+    "title": "Restore canonical Dotenv Armor team",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/5062",
+    "additions": 9,
+    "deletions": 9,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/dotenvx-secrets/SKILL.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 5056,
+    "title": "chore(security): rotate dotenvx keys into kortix-ai",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/5056",
+    "additions": 424,
+    "deletions": 364,
+    "changedFiles": 10,
+    "artifact_files": [
+      ".claude/skills/dotenvx-secrets/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 4592,
+    "title": "feat(sandboxes): add unified E2B cloud provider",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4592",
+    "additions": 2336,
+    "deletions": 3904,
+    "changedFiles": 110,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 4590,
+    "title": "refactor: remove final hosted app guidance residues",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4590",
+    "additions": 41,
+    "deletions": 30,
+    "changedFiles": 17,
+    "artifact_files": [
+      ".claude/skills/internal-comms/SKILL.md",
+      ".claude/skills/internal-comms/references/glossary.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 4572,
+    "title": "refactor: remove hosted app deployment capability",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4572",
+    "additions": 387,
+    "deletions": 11173,
+    "changedFiles": 151,
+    "artifact_files": [
+      ".claude/skills/ke2e-tests/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 4495,
+    "title": "feat: make Kortix sessions ACP-first across all harnesses",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4495",
+    "additions": 12776,
+    "deletions": 29032,
+    "changedFiles": 587,
+    "artifact_files": [
+      "apps/whitelabel-demo/AGENTS.md",
+      "packages/sdk/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 4429,
+    "title": "docs: require PR and deployed dev verification",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4429",
+    "additions": 27,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 4382,
+    "title": "feat(sdk): @kortix/sdk v2 — canonical entry, CDN bundles, publish hardening, live-stack playground",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4382",
+    "additions": 16853,
+    "deletions": 2032,
+    "changedFiles": 337,
+    "artifact_files": [
+      "AGENTS.md",
+      "packages/sdk/AGENTS.md",
+      "packages/sdk/CLAUDE.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 4332,
+    "title": "fix(web): confirm dialog before secret delete and gateway key revoke",
+    "author": "Ino-Bagaric",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4332",
+    "additions": 84,
+    "deletions": 21,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 4310,
+    "title": "refactor: sweep kortix.toml → kortix.yaml (TOML kept only as v1 legacy)",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4310",
+    "additions": 1881,
+    "deletions": 1746,
+    "changedFiles": 185,
+    "artifact_files": [
+      ".claude/skills/brand-guidelines/SKILL.md",
+      ".claude/skills/internal-comms/SKILL.md",
+      ".claude/skills/internal-comms/references/glossary.md",
+      ".claude/skills/internal-comms/references/messaging.md",
+      ".claude/skills/internal-comms/references/pitches.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 4294,
+    "title": "chore: remove the stale root .kortix dogfood project",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4294",
+    "additions": 6,
+    "deletions": 56251,
+    "changedFiles": 343,
+    "artifact_files": [
+      ".claude/skills/kortix/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 4288,
+    "title": "feat(markdown): clean, minimal code blocks + refreshed Shiki palette in unified markdown",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4288",
+    "additions": 825,
+    "deletions": 1147,
+    "changedFiles": 6,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 4145,
+    "title": "feat(sdk+whitelabel): Kortix-as-a-Backend — wrapper-backend reference + server-grade SDK surface",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4145",
+    "additions": 15988,
+    "deletions": 952,
+    "changedFiles": 183,
+    "artifact_files": [
+      "apps/whitelabel-demo/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 4120,
+    "title": "feat(web): Easy/Advanced session panel, rebuilt file viewers, modular tool renderers",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4120",
+    "additions": 31523,
+    "deletions": 21580,
+    "changedFiles": 328,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 4037,
+    "title": "chore(security): add Deepsec audit setup and sandbox hardening",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/4037",
+    "additions": 2643,
+    "deletions": 29,
+    "changedFiles": 16,
+    "artifact_files": [
+      ".deepsec/AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 3859,
+    "title": "Release v0.9.78 — Marketplace runtime, managed gateway defaults, and staging release hardening",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3859",
+    "additions": 104109,
+    "deletions": 16403,
+    "changedFiles": 823,
+    "artifact_files": [
+      ".claude/skills/ke2e-tests/SKILL.md",
+      ".claude/skills/kortix-release/SKILL.md",
+      ".claude/skills/kortix-rollback/SKILL.md",
+      ".claude/skills/worktree/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 3850,
+    "title": "Make Kortix runtime marketplace-native",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3850",
+    "additions": 5311,
+    "deletions": 1310,
+    "changedFiles": 380,
+    "artifact_files": [
+      ".claude/skills/worktree/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 3825,
+    "title": "feat(sdk): extract the frontend data layer into @kortix/sdk — and rip out the legacy local_docker/server-instance system",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3825",
+    "additions": 27869,
+    "deletions": 18631,
+    "changedFiles": 388,
+    "artifact_files": [
+      "AGENTS.md",
+      "apps/whitelabel-demo/AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 3777,
+    "title": "Fix CLI sandbox auth fallback",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3777",
+    "additions": 159,
+    "deletions": 7,
+    "changedFiles": 9,
+    "artifact_files": [
+      ".claude/skills/worktree/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 3739,
+    "title": "docs(skill): add kortix-rollback — rollback runbook + FE clobber/skip behavior",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3739",
+    "additions": 135,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/kortix-rollback/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 3730,
+    "title": "feat(ci): rollback-prod workflow — reversible prod rollback (inverse of promote)",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3730",
+    "additions": 226,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/kortix-release/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 3687,
+    "title": "refactor(customize): improve customize panel ",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3687",
+    "additions": 18394,
+    "deletions": 16277,
+    "changedFiles": 267,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md",
+      "apps/web/.agents/skills/make-interfaces-feel-better/SKILL.md",
+      "apps/web/.agents/skills/make-interfaces-feel-better/animations.md",
+      "apps/web/.agents/skills/make-interfaces-feel-better/performance.md",
+      "apps/web/.agents/skills/make-interfaces-feel-better/surfaces.md",
+      "apps/web/.agents/skills/make-interfaces-feel-better/typography.md",
+      "apps/web/skills-lock.json"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 3633,
+    "title": "docs: refresh EKS and migration runbooks",
+    "author": "agent-kortix",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3633",
+    "additions": 250,
+    "deletions": 313,
+    "changedFiles": 15,
+    "artifact_files": [
+      ".claude/skills/migration/SKILL.md",
+      ".claude/skills/worktree/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 3535,
+    "title": "docs(release): defer the pre-Promote QA gate to a later pass",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3535",
+    "additions": 11,
+    "deletions": 1,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/kortix-release/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 3529,
+    "title": "polish: align project access request state with brand",
+    "author": "agent-kortix",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3529",
+    "additions": 158,
+    "deletions": 71,
+    "changedFiles": 3,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 3495,
+    "title": "QA: consolidated test framework + LLM gateway tests (validate on branch before main)",
+    "author": "lillyboga",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3495",
+    "additions": 16804,
+    "deletions": 201,
+    "changedFiles": 215,
+    "artifact_files": [
+      ".claude/skills/testing/SKILL.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 3480,
+    "title": "refactor(web): enhance project workspace ui",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3480",
+    "additions": 11190,
+    "deletions": 11774,
+    "changedFiles": 158,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 3430,
+    "title": "refactor(web): update components",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3430",
+    "additions": 1201,
+    "deletions": 420,
+    "changedFiles": 30,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 3375,
+    "title": "Redesign Marketing Page v1 ",
+    "author": "sutharjay1",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3375",
+    "additions": 64178,
+    "deletions": 21765,
+    "changedFiles": 315,
+    "artifact_files": [
+      ".claude/skills/brand-guidelines/SKILL.md",
+      ".claude/skills/internal-comms/SKILL.md",
+      ".claude/skills/internal-comms/references/glossary.md",
+      ".claude/skills/internal-comms/references/messaging.md",
+      ".claude/skills/internal-comms/references/pitches.md",
+      ".claude/skills/kortix-design-system/SKILL.md",
+      ".claude/skills/kortix-image/SKILL.md",
+      ".claude/skills/kortix-image/evals/evals.json",
+      ".claude/skills/kortix-presentation/SKILL.md",
+      ".claude/skills/kortix-presentation/editing.md",
+      ".claude/skills/kortix-presentation/evals/evals.json",
+      ".claude/skills/kortix-presentation/pptxgenjs.md",
+      ".claude/skills/kortix-presentation/scripts/__init__.py",
+      ".claude/skills/kortix-presentation/scripts/add_slide.py",
+      ".claude/skills/kortix-presentation/scripts/clean.py",
+      ".claude/skills/kortix-presentation/scripts/office/helpers/__init__.py",
+      ".claude/skills/kortix-presentation/scripts/office/helpers/merge_runs.py",
+      ".claude/skills/kortix-presentation/scripts/office/helpers/simplify_redlines.py",
+      ".claude/skills/kortix-presentation/scripts/office/pack.py",
+      ".claude/skills/kortix-presentation/scripts/office/soffice.py",
+      ".claude/skills/kortix-presentation/scripts/office/unpack.py",
+      ".claude/skills/kortix-presentation/scripts/office/validate.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/__init__.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/base.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/docx.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/pptx.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/redlining.py",
+      ".claude/skills/kortix-presentation/scripts/repair.py",
+      ".claude/skills/kortix-presentation/scripts/thumbnail.py",
+      ".claude/skills/kortix-social/SKILL.md",
+      ".claude/skills/kortix-social/evals/evals.json",
+      ".claude/skills/kortix-social/references/platform-limits.md",
+      ".claude/skills/kortix-social/references/post-templates.md",
+      ".claude/skills/kortix-social/references/short-form-video.md",
+      ".claude/skills/product-marketing/SKILL.md",
+      ".claude/skills/product-marketing/evals/evals.json",
+      "skills-lock.json"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 3305,
+    "title": "Release v0.9.17 — Single-leader background workers, contact/demo flow, and build + env fixes",
+    "author": "github-actions[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3305",
+    "additions": 13903,
+    "deletions": 1178,
+    "changedFiles": 103,
+    "artifact_files": [
+      ".claude/skills/dotenvx-secrets/SKILL.md",
+      ".claude/skills/ke2e-tests/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 3303,
+    "title": "Release v0.9.15 — SOC 2 compliance baseline + gated release flow",
+    "author": "github-actions[bot]",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3303",
+    "additions": 1572,
+    "deletions": 2371,
+    "changedFiles": 41,
+    "artifact_files": [
+      ".claude/skills/dotenvx-secrets/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 3301,
+    "title": "chore: clean dead legacy code",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3301",
+    "additions": 3671,
+    "deletions": 40342,
+    "changedFiles": 818,
+    "artifact_files": [
+      ".claude/skills/kortix-presentation/scripts/office/helpers/merge_runs.py",
+      ".claude/skills/kortix-presentation/scripts/office/unpack.py",
+      ".claude/skills/kortix-presentation/scripts/office/validate.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/base.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/docx.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/pptx.py",
+      ".claude/skills/kortix-presentation/scripts/office/validators/redlining.py",
+      ".claude/skills/kortix/SKILL.md",
+      ".deepsec/AGENTS.md",
+      "AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 3229,
+    "title": "Promote newer-kortix to main (platform cutover)",
+    "author": "markokraemer",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3229",
+    "additions": 325026,
+    "deletions": 177347,
+    "changedFiles": 2797,
+    "artifact_files": [
+      ".claude/skills/kortix-design-system/SKILL.md",
+      ".claude/skills/kortix-voice/SKILL.md",
+      ".claude/skills/kortix/SKILL.md",
+      ".deepsec/AGENTS.md",
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 3186,
+    "title": "Design system",
+    "author": "kortix-agent",
+    "state": "MERGED",
+    "url": "https://github.com/kortix-ai/suna/pull/3186",
+    "additions": 160837,
+    "deletions": 181614,
+    "changedFiles": 1724,
+    "artifact_files": [
+      ".deepsec/AGENTS.md"
+    ],
+    "category": "feature"
+  }
+]

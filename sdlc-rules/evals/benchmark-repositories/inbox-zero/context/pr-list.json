@@ -1,0 +1,1117 @@
+[
+  {
+    "number": 3023,
+    "title": "Bake Node 24 into Cloud Agent environment",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/3023",
+    "additions": 56,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".cursor/environment.json"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2917,
+    "title": "chore: Add evaluation run script",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2917",
+    "additions": 9,
+    "deletions": 1,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".conductor/settings.toml"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2833,
+    "title": "chore: Update workspace setup configuration",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2833",
+    "additions": 9,
+    "deletions": 6,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".conductor/settings.toml",
+      "conductor.json"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2819,
+    "title": "Add offline HTML eval dashboard for run history",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2819",
+    "additions": 3040,
+    "deletions": 395,
+    "changedFiles": 60,
+    "artifact_files": [
+      ".claude/skills/testing/eval.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2790,
+    "title": "Add role-based LLM configuration",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2790",
+    "additions": 1296,
+    "deletions": 751,
+    "changedFiles": 48,
+    "artifact_files": [
+      ".claude/skills/cloud-dev-environment/SKILL.md",
+      ".cursor/rules/features/knowledge.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2789,
+    "title": "llm: Centralize use-case routing",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2789",
+    "additions": 563,
+    "deletions": 142,
+    "changedFiles": 39,
+    "artifact_files": [
+      ".claude/skills/llm/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2769,
+    "title": "eval: Add result history and caching",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2769",
+    "additions": 607,
+    "deletions": 113,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/skills/testing/eval.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2598,
+    "title": "test: Fix root test commands",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2598",
+    "additions": 7,
+    "deletions": 6,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/skills/testing/SKILL.md",
+      ".claude/skills/testing/unit.md",
+      ".claude/skills/testing/write-tests.md",
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 2597,
+    "title": "Improve draft reply context retrieval",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2597",
+    "additions": 710,
+    "deletions": 16,
+    "changedFiles": 9,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2558,
+    "title": "Add configurable draft cleanup",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2558",
+    "additions": 532,
+    "deletions": 38,
+    "changedFiles": 14,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 2543,
+    "title": "docs: minimal Cursor Cloud Docker notes in cloud-dev skill",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2543",
+    "additions": 4,
+    "deletions": 4,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/cloud-dev-environment/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 2511,
+    "title": "chore: Add Codex agent configuration",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2511",
+    "additions": 117,
+    "deletions": 1,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/skills/code-simplifier/SKILL.md",
+      ".claude/skills/code-simplifier/agents/openai.yaml",
+      ".codex/agents/code-simplifier.toml",
+      ".codex/agents/reviewer.toml",
+      ".codex/config.toml"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2507,
+    "title": "docs: add Cursor Cloud specific instructions to AGENTS.md",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2507",
+    "additions": 23,
+    "deletions": 2,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/cloud-dev-environment/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 2464,
+    "title": "messaging: Show draft attachment summaries",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2464",
+    "additions": 436,
+    "deletions": 144,
+    "changedFiles": 18,
+    "artifact_files": [
+      ".claude/skills/create-pr/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2428,
+    "title": "docs: Update testing guidance",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2428",
+    "additions": 1,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 2382,
+    "title": "docs: Update code style guidance",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2382",
+    "additions": 4,
+    "deletions": 3,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 2381,
+    "title": "bulk-unsubscribe: Refine bulk action notifications",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2381",
+    "additions": 66,
+    "deletions": 27,
+    "changedFiles": 3,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2336,
+    "title": "assistant: improve evidence handling and inline email context",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2336",
+    "additions": 3159,
+    "deletions": 266,
+    "changedFiles": 26,
+    "artifact_files": [
+      ".claude/skills/review-ai-prompt-changes/SKILL.md",
+      ".claude/skills/review-ai-prompt-changes/agents/openai.yaml"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2283,
+    "title": "docs: update changelog instructions",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2283",
+    "additions": 30,
+    "deletions": 22,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/changelog/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 2265,
+    "title": "assistant: tighten bulk inbox tool guidance",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2265",
+    "additions": 520,
+    "deletions": 203,
+    "changedFiles": 12,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2240,
+    "title": "assistant: fix rule dialog crash for multi-condition rules",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2240",
+    "additions": 304,
+    "deletions": 156,
+    "changedFiles": 5,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 2219,
+    "title": "chore: reorganize AI test directories",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2219",
+    "additions": 29,
+    "deletions": 27,
+    "changedFiles": 23,
+    "artifact_files": [
+      ".claude/skills/testing/SKILL.md",
+      ".claude/skills/testing/eval.md",
+      ".claude/skills/testing/llm.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 2217,
+    "title": "chore: refine assistant chat prompt and tool structure",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2217",
+    "additions": 5696,
+    "deletions": 2784,
+    "changedFiles": 44,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2211,
+    "title": "build: pin resolver for zod 3",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2211",
+    "additions": 12,
+    "deletions": 13,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/skills/update-packages/SKILL.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 2210,
+    "title": "tests: refresh eval model matrix",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2210",
+    "additions": 8,
+    "deletions": 8,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/testing/eval.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2164,
+    "title": "chore: document supported typecheck flow",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2164",
+    "additions": 1,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 2111,
+    "title": "mobile review: add invite-only access flow",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2111",
+    "additions": 386,
+    "deletions": 5,
+    "changedFiles": 11,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2057,
+    "title": "chat: track fresh rule state across turns",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2057",
+    "additions": 940,
+    "deletions": 97,
+    "changedFiles": 11,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2023,
+    "title": "self-hosting: add optional queue worker backend",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2023",
+    "additions": 1117,
+    "deletions": 21,
+    "changedFiles": 22,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2022,
+    "title": "Add Slack integration tests using emulator",
+    "author": "gentlemandev",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2022",
+    "additions": 298,
+    "deletions": 3,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/testing/integration.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2019,
+    "title": "Add integration test tier with emulator-based stats test",
+    "author": "gentlemandev",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2019",
+    "additions": 326,
+    "deletions": 2,
+    "changedFiles": 5,
+    "artifact_files": [
+      ".claude/skills/testing/SKILL.md",
+      ".claude/skills/testing/integration.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 2012,
+    "title": "Simplify qa-label skill to essentials",
+    "author": "gentlemandev",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2012",
+    "additions": 2,
+    "deletions": 22,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/qa-label/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 2011,
+    "title": "Add qa-label skill for triggering QA on open PRs",
+    "author": "gentlemandev",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/2011",
+    "additions": 28,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/qa-label/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1996,
+    "title": "Add agent-browser skill for QA",
+    "author": "gentlemandev",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1996",
+    "additions": 2426,
+    "deletions": 4,
+    "changedFiles": 13,
+    "artifact_files": [
+      ".claude/skills/agent-browser/SKILL.md",
+      ".claude/skills/agent-browser/references/authentication.md",
+      ".claude/skills/agent-browser/references/commands.md",
+      ".claude/skills/agent-browser/references/profiling.md",
+      ".claude/skills/agent-browser/references/proxy-support.md",
+      ".claude/skills/agent-browser/references/session-management.md",
+      ".claude/skills/agent-browser/references/snapshot-refs.md",
+      ".claude/skills/agent-browser/references/video-recording.md",
+      ".claude/skills/agent-browser/templates/authenticated-session.sh",
+      ".claude/skills/agent-browser/templates/capture-workflow.sh",
+      ".claude/skills/agent-browser/templates/form-automation.sh"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1991,
+    "title": "qa-run: add --base-url flag",
+    "author": "gentlemandev",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1991",
+    "additions": 7,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/qa-run/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1975,
+    "title": "Improve learned writing style aggregation",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1975",
+    "additions": 1779,
+    "deletions": 258,
+    "changedFiles": 16,
+    "artifact_files": [
+      ".claude/skills/llm-test/SKILL.md",
+      ".claude/skills/testing/eval.md",
+      ".claude/skills/testing/llm.md",
+      ".cursor/rules/features/reply-memory.mdc"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1974,
+    "title": "chore: update Next.js to 16.2",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1974",
+    "additions": 195,
+    "deletions": 55,
+    "changedFiles": 4,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1973,
+    "title": "Remove legacy user-scoped API key fallback",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1973",
+    "additions": 78,
+    "deletions": 264,
+    "changedFiles": 16,
+    "artifact_files": [
+      "clawhub/inbox-zero-api/references/cli-reference.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 1972,
+    "title": "assistant-chat: add mobile confirm-email-action route",
+    "author": "jshwrnr",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1972",
+    "additions": 140,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1970,
+    "title": "feat: Cursor Directory plugin for inbox-zero-api CLI",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1970",
+    "additions": 53,
+    "deletions": 2,
+    "changedFiles": 6,
+    "artifact_files": [
+      ".cursor-plugin/plugin.json",
+      "agents/inbox-zero-api-cli.md",
+      "clawhub/inbox-zero-api/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1965,
+    "title": "tests: reduce brittle assertions",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1965",
+    "additions": 98,
+    "deletions": 286,
+    "changedFiles": 8,
+    "artifact_files": [
+      ".claude/skills/testing/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1964,
+    "title": "ci: run smoke workflow daily",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1964",
+    "additions": 22,
+    "deletions": 32,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/pr-loop/SKILL.md",
+      ".claude/skills/pr-watch/SKILL.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 1963,
+    "title": "skills: prevent premature PR watch exit",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1963",
+    "additions": 19,
+    "deletions": 19,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/pr-loop/SKILL.md",
+      ".claude/skills/pr-watch/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1961,
+    "title": "docs: clarify testing skill coverage",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1961",
+    "additions": 1,
+    "deletions": 1,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/testing/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 1960,
+    "title": "assistant: add progressive tool disclosure, trash, calendar, and attachment reading",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1960",
+    "additions": 3364,
+    "deletions": 49,
+    "changedFiles": 18,
+    "artifact_files": [
+      ".claude/skills/pr-watch/SKILL.md",
+      ".claude/skills/test-feature/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1959,
+    "title": "reply: improve draft memory provenance",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1959",
+    "additions": 271,
+    "deletions": 86,
+    "changedFiles": 14,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1957,
+    "title": "Add /pr-watch skill for PR comment monitoring",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1957",
+    "additions": 34,
+    "deletions": 0,
+    "changedFiles": 2,
+    "artifact_files": [
+      ".claude/skills/pr-watch/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1955,
+    "title": "reply: Add learned reply memory pipeline",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1955",
+    "additions": 3234,
+    "deletions": 277,
+    "changedFiles": 29,
+    "artifact_files": [
+      ".claude/skills/llm/SKILL.md",
+      ".claude/skills/review/SKILL.md",
+      ".claude/skills/testing/eval.md",
+      ".claude/skills/testing/llm.md",
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1941,
+    "title": "Split changelog into per-entry files to avoid conflicts",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1941",
+    "additions": 159,
+    "deletions": 9,
+    "changedFiles": 9,
+    "artifact_files": [
+      ".claude/skills/changelog/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1926,
+    "title": "chore: update npm publish workflows",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1926",
+    "additions": 136,
+    "deletions": 1,
+    "changedFiles": 4,
+    "artifact_files": [
+      "clawhub/inbox-zero-api/SKILL.md",
+      "clawhub/inbox-zero-api/agents/openai.yaml",
+      "clawhub/inbox-zero-api/references/cli-reference.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 1923,
+    "title": "chore: update browser testing to use headless Chrome with saved profile",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1923",
+    "additions": 34,
+    "deletions": 5,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/test-feature/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1922,
+    "title": "API: add npm CLI for automation",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1922",
+    "additions": 1296,
+    "deletions": 83,
+    "changedFiles": 24,
+    "artifact_files": [
+      ".claude/skills/test-feature/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1918,
+    "title": "fix: API key creation on /settings and QA improvements",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1918",
+    "additions": 268,
+    "deletions": 21,
+    "changedFiles": 16,
+    "artifact_files": [
+      ".claude/skills/qa-run/SKILL.md",
+      ".claude/skills/test-feature/SKILL.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 1911,
+    "title": "chore: remove sub-agent review gate",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1911",
+    "additions": 0,
+    "deletions": 3,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 1910,
+    "title": "Add assistant chat inbox workflow evals",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1910",
+    "additions": 745,
+    "deletions": 25,
+    "changedFiles": 8,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 1905,
+    "title": "chore: consolidate testing skills and update project config",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1905",
+    "additions": 662,
+    "deletions": 1816,
+    "changedFiles": 19,
+    "artifact_files": [
+      ".claude/skills/e2e/SKILL.md",
+      ".claude/skills/fullstack-workflow/SKILL.md",
+      ".claude/skills/installing-packages/SKILL.md",
+      ".claude/skills/llm-test/SKILL.md",
+      ".claude/skills/page-structure/SKILL.md",
+      ".claude/skills/prisma/SKILL.md",
+      ".claude/skills/project-structure/SKILL.md",
+      ".claude/skills/roast-my-code/SKILL.md",
+      ".claude/skills/security/SKILL.md",
+      ".claude/skills/server-actions/SKILL.md",
+      ".claude/skills/testing/SKILL.md",
+      ".claude/skills/testing/e2e.md",
+      ".claude/skills/testing/eval.md",
+      ".claude/skills/testing/llm.md",
+      ".claude/skills/testing/unit.md",
+      ".claude/skills/testing/write-tests.md",
+      ".claude/skills/utilities/SKILL.md",
+      ".claude/skills/write-tests/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 1901,
+    "title": "docs: add Prisma transaction rule",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1901",
+    "additions": 1,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 1871,
+    "title": "Add eval infrastructure for cross-model LLM comparison",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1871",
+    "additions": 1254,
+    "deletions": 19,
+    "changedFiles": 11,
+    "artifact_files": [
+      ".claude/skills/llm-test/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1828,
+    "title": "Add changelog page to documentation",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1828",
+    "additions": 78,
+    "deletions": 0,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/changelog/SKILL.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 1826,
+    "title": "Update installation note in agent guidelines",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1826",
+    "additions": 1,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1810,
+    "title": "deps: update packages and align Node 24",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1810",
+    "additions": 4436,
+    "deletions": 4541,
+    "changedFiles": 24,
+    "artifact_files": [
+      ".claude/skills/update-packages/SKILL.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 1728,
+    "title": "Development environment setup",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1728",
+    "additions": 30,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      ".claude/skills/cloud-dev-environment/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1706,
+    "title": "Remove old skills and clean up",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1706",
+    "additions": 1,
+    "deletions": 1115,
+    "changedFiles": 15,
+    "artifact_files": [
+      ".claude/skills/SKILL.md",
+      ".claude/skills/address-pr-comments/SKILL.md",
+      ".claude/skills/address-pr-comments/get-pr-review-comments.sh",
+      ".claude/skills/data-fetching/SKILL.md",
+      ".claude/skills/e2e/SKILL.md",
+      ".claude/skills/form-handling/SKILL.md",
+      ".claude/skills/get-api-route/SKILL.md",
+      ".claude/skills/gmail-api/SKILL.md",
+      ".claude/skills/hooks/SKILL.md",
+      ".claude/skills/interview/SKILL.md",
+      ".claude/skills/package.json",
+      ".claude/skills/reply-tracker/SKILL.md",
+      ".claude/skills/scripts/debug_cleanup.js",
+      ".claude/skills/scripts/debug_server.js",
+      ".claude/skills/security-audit/SKILL.md"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 1704,
+    "title": "gmail: Add serverless-safe rate limit coordination",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1704",
+    "additions": 2033,
+    "deletions": 297,
+    "changedFiles": 25,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1703,
+    "title": "docs: clarify agent change philosophy",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1703",
+    "additions": 4,
+    "deletions": 0,
+    "changedFiles": 1,
+    "artifact_files": [
+      "AGENTS.md"
+    ],
+    "category": "docs-artifact"
+  },
+  {
+    "number": 1675,
+    "title": "Add reviewer sub-agent workflow",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1675",
+    "additions": 46,
+    "deletions": 0,
+    "changedFiles": 4,
+    "artifact_files": [
+      ".claude/agents/reviewer.md",
+      ".codex/agents/reviewer.toml",
+      ".codex/config.toml",
+      "AGENTS.md"
+    ],
+    "category": "build"
+  },
+  {
+    "number": 1671,
+    "title": "chore: fix skill frontmatter metadata parsing",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1671",
+    "additions": 29,
+    "deletions": 7,
+    "changedFiles": 15,
+    "artifact_files": [
+      ".claude/skills/address-pr-comments/SKILL.md",
+      ".claude/skills/create-pr/SKILL.md",
+      ".claude/skills/explain-changes/SKILL.md",
+      ".claude/skills/interview/SKILL.md",
+      ".claude/skills/next-step/SKILL.md",
+      ".claude/skills/polish/SKILL.md",
+      ".claude/skills/pr-loop/SKILL.md",
+      ".claude/skills/qa-new-flow/SKILL.md",
+      ".claude/skills/qa-run/SKILL.md",
+      ".claude/skills/review/SKILL.md",
+      ".claude/skills/roast-my-code/SKILL.md",
+      ".claude/skills/step-by-step/SKILL.md",
+      ".claude/skills/ux-writing/SKILL.md",
+      ".claude/skills/wait/SKILL.md",
+      ".claude/skills/write-tests/SKILL.md"
+    ],
+    "category": "fix"
+  },
+  {
+    "number": 1664,
+    "title": "chore: move PR review script into skills directory",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1664",
+    "additions": 6,
+    "deletions": 6,
+    "changedFiles": 3,
+    "artifact_files": [
+      ".claude/skills/address-pr-comments/SKILL.md",
+      ".claude/skills/pr-loop/SKILL.md",
+      ".claude/skills/scripts/get-pr-review-comments.sh"
+    ],
+    "category": "refactor"
+  },
+  {
+    "number": 1588,
+    "title": "Add disable-model-invocation to command skills",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1588",
+    "additions": 40,
+    "deletions": 0,
+    "changedFiles": 10,
+    "artifact_files": [
+      ".claude/skills/address-pr-comments/SKILL.md",
+      ".claude/skills/create-pr/SKILL.md",
+      ".claude/skills/next-step/SKILL.md",
+      ".claude/skills/polish/SKILL.md",
+      ".claude/skills/review/SKILL.md",
+      ".claude/skills/roast-my-code/SKILL.md",
+      ".claude/skills/step-by-step/SKILL.md",
+      ".claude/skills/ux-writing/SKILL.md",
+      ".claude/skills/wait/SKILL.md",
+      ".claude/skills/write-tests/SKILL.md"
+    ],
+    "category": "feature"
+  },
+  {
+    "number": 1587,
+    "title": "Move skill documentation to .claude directory",
+    "author": "elie222",
+    "state": "MERGED",
+    "url": "https://github.com/elie222/inbox-zero/pull/1587",
+    "additions": 4,
+    "deletions": 4,
+    "changedFiles": 37,
+    "artifact_files": [
+      ".claude/skills/address-pr-comments/SKILL.md",
+      ".claude/skills/create-pr/SKILL.md",
+      ".claude/skills/cursor-rules/SKILL.md",
+      ".claude/skills/data-fetching/SKILL.md",
+      ".claude/skills/environment-variables/SKILL.md",
+      ".claude/skills/explain-changes/SKILL.md",
+      ".claude/skills/form-handling/SKILL.md",
+      ".claude/skills/fullstack-workflow/SKILL.md",
+      ".claude/skills/get-api-route/SKILL.md",
+      ".claude/skills/gmail-api/SKILL.md",
+      ".claude/skills/hooks/SKILL.md",
+      ".claude/skills/installing-packages/SKILL.md",
+      ".claude/skills/interview/SKILL.md",
+      ".claude/skills/llm-test/SKILL.md",
+      ".claude/skills/llm/SKILL.md",
+      ".claude/skills/logging/SKILL.md",
+      ".claude/skills/next-step/SKILL.md",
+      ".claude/skills/page-structure/SKILL.md",
+      ".claude/skills/polish/SKILL.md",
+      ".claude/skills/prisma/SKILL.md",
+      ".claude/skills/project-structure/SKILL.md",
+      ".claude/skills/qa-new-flow/SKILL.md",
+      ".claude/skills/qa-run/SKILL.md",
+      ".claude/skills/reply-tracker/SKILL.md",
+      ".claude/skills/review/SKILL.md",
+      ".claude/skills/roast-my-code/SKILL.md",
+      ".claude/skills/security-audit/SKILL.md",
+      ".claude/skills/security/SKILL.md",
+      ".claude/skills/server-actions/SKILL.md",
+      ".claude/skills/step-by-step/SKILL.md",
+      ".claude/skills/testing/SKILL.md",
+      ".claude/skills/ui-components/SKILL.md",
+      ".claude/skills/utilities/SKILL.md",
+      ".claude/skills/ux-writing/SKILL.md",
+      ".claude/skills/wait/SKILL.md",
+      ".claude/skills/write-tests/SKILL.md",
+      "AGENTS.md"
+    ],
+    "category": "refactor"
+  }
+]
