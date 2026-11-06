@@ -1,0 +1,60 @@
+description: spoon skill evals (claude -p, Sonnet 5.5, medium effort)
+
+prompts: ['{{q}}']
+providers: ['file://provider.js']
+
+defaultTest:
+  assert: [{ type: javascript, value: file://asserts.js:spoonFromRepo }]
+  options:
+    provider:
+      id: file://provider.js
+      config: { judge: true }
+
+tests:
+  # 1. Triggering: stop after one turn. The default assert checks spoon loaded from this repo.
+  - description: trigger / clear (sp 1m)
+    vars: { q: 'Who was the first president of the United States? sp 1m', view: trajectory, max_turns: 1, timeout_s: 90 }
+  - description: trigger / near-miss (code request + sp 1m)
+    vars: { q: 'create a python file for me that prints the time sp 1m', view: trajectory, max_turns: 1, timeout_s: 90 }
+  - description: trigger / plain question, no tokens
+    vars: { q: "What's a good way to learn to cook at home?", view: trajectory, max_turns: 1, timeout_s: 90 }
+
+  # 2. Dosing: long-answer questions, short doses.
+  - description: dose / sp 1s = 1-2 sentences
+    vars: { q: 'Who was the most beloved US president in history? sp 1s' }
+    assert: [{ type: javascript, value: file://asserts.js:oneSentence }]
+  - description: dose / sp 1p = one paragraph
+    vars: { q: 'Can you summarize the causes of WW1? sp 1p' }
+    assert: [{ type: javascript, value: file://asserts.js:oneParagraph }]
+  - description: dose / sp 1m = 60-220 words
+    vars: { q: 'Can you summarize the causes of WW1? sp 1m' }
+    assert: [{ type: javascript, value: file://asserts.js:oneMinute }]
+
+  # 3. Formatting. (`art` is skipped: claude -p has no Artifact tool.)
+  - description: format / sp bul = bullets with bold titles
+    vars: { q: 'What are the main benefits of regular exercise? sp bul' }
+    assert: [{ type: javascript, value: file://asserts.js:boldBullets }]
+  - description: format / sp html = an HTML page
+    vars: { q: 'Explain how a bill becomes a law in the US. sp html', view: trajectory }
+    assert: [{ type: javascript, value: file://asserts.js:htmlPage }]
+  - description: format / footer spells out tokens (sp 2s out)
+    vars: { q: 'Why is the sky blue? sp 2s out' }
+    assert: [{ type: javascript, value: file://asserts.js:footerSentencesOut }]
+  - description: format / bare footer with no tokens
+    vars: { q: "What's the capital of Australia?" }
+    assert: [{ type: javascript, value: file://asserts.js:footerBare }]
+
+  # 4. Verification.
+  - description: verify / sp ver3 runs two subagents
+    vars: { q: 'Is a tomato a fruit or a vegetable? sp ver3', view: trajectory, timeout_s: 480 }
+    assert: [{ type: javascript, value: file://asserts.js:twoSubagents }]
+  - description: verify / sp ver1 adds thoughtful instructions
+    vars: { q: 'Is coffee bad for your health? sp ver1', view: trajectory, timeout_s: 300 }
+    assert:
+      - type: llm-rubric
+        value: >-
+          This is the trajectory of an AI run. The user added "sp ver1" (thoughtful verification).
+          Pass only if both are true: (1) during the run, extra instructions on HOW to handle the
+          question were loaded (beyond the user's message), and (2) those instructions push toward a
+          more careful, thoughtful answer (e.g. care, data, sources, cover all angles).
+          Judge the instructions, not the quality of the final answer.

@@ -1,0 +1,6 @@
+{
+  "name": "spoon-evals",
+  "private": true,
+  "scripts": { "eval": "./run.sh" },
+  "devDependencies": { "promptfoo": "0.125.1" }
+}
