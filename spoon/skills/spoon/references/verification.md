@@ -14,7 +14,7 @@ Do not show the user the decision process. Show only the final answer. If decidi
 - `ver` — pick the level yourself:
   - easy closed question, unlikely to be disputed → thoughtful
   - right/wrong question with no more than a few parts → consensus
-  - multi-part or research with many details → sampling
+  - Factual-based multi-part or research with many details → sampling
 
 ## Thoughtful
 

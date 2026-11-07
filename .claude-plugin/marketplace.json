@@ -12,7 +12,7 @@
       "name": "spoon",
       "source": "./spoon",
       "description": "Tiny tokens that shape every answer: dose (sp 1m, sp 3s), verification, enhancers and formats.",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "author": {
         "name": "Yoni Goldberg"
       },

@@ -1,9 +1,9 @@
 ---
 name: spoon
 description: A key user utility that gives answers the way the user expects. Load it whenever a message mentions `spoon` or `sp`. Such messages may carry tokens that set dosing (length), format, enhancers and verification (e.g. `sp 1m`, `sp ver`).
-argument-hint: "dose: {n}s {n}p {n}m | verify: ver ver1/thoughtful/tho ver2/sampling/sam ver3/consensus/con | enhance: cr/crystal lay qu in out da/data | format: bul art html | util: tips sticky on|off"
+argument-hint: "dose: {n}s {n}p {n}m | verify: ver ver1/thoughtful/tho ver2/sampling/sam ver3/consensus/con | enhance: cr/crystal lay qu in out da/data | format: bul art html | util: tips/cheatsheet sticky on|off"
 metadata:
-  version: "2.1.0"
+  version: "2.2.0"
   author: Yoni Goldberg
   updated: "2026-11-07"
 ---
@@ -52,7 +52,7 @@ When any token below appears, you must read its area's file before answering: th
 - `html` — an HTML artifact
 
 **Utilities** — `references/utilities.md`
-- `tips` — quick start
+- `tips` / `cheatsheet` — quick start
 - `sticky on|off` — keep the arguments for the session
 
 ## Footer
