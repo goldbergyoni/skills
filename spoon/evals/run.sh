@@ -1,28 +1,25 @@
 #!/usr/bin/env bash
-# One command: ./run.sh  (extra args go to promptfoo, e.g. --filter-pattern dose)
+# One command: ./run.sh  (extra args go to promptfoo, e.g. --filter-pattern dose --filter-providers codex)
 set -euo pipefail
 cd "$(dirname "$0")"
 [ -d node_modules ] || npm install --silent
-mkdir -p results && rm -f results/cost.log results/init.log
 
 # Skill version: metadata.version from SKILL.md + a hash of the skill's .md files (edits often skip the bump).
-ver="$(sed -n 's/^ *version: *"\{0,1\}\([^"]*\)"\{0,1\}$/\1/p' ../skills/spoon/SKILL.md | head -1)"
-hash="$(find ../skills/spoon -name '*.md' | sort | xargs cat | shasum | cut -c1-8)"
+skill="$(cd ../skills/spoon && pwd)"
+ver="$(sed -n 's/^ *version: *"\{0,1\}\([^"]*\)"\{0,1\}$/\1/p' "$skill/SKILL.md" | head -1)"
+hash="$(find "$skill" -name '*.md' | sort | xargs cat | shasum | cut -c1-8)"
 export SPOON_VERSION="${ver:-none}+${hash}"
 
-# Fresh workspace that sees ONLY this repo's spoon. With --setting-sources project,
-# claude skips ~/.claude (user skills, plugins, hooks), so the old copies never load.
-export SPOON_WS="$(mktemp -d)"
-export SPOON_JUDGE_WS="$(mktemp -d)"
-export SPOON_COST_LOG="$PWD/results/cost.log"
-export SPOON_INIT_LOG="$PWD/results/init.log"
-mkdir -p "$SPOON_WS/.claude/skills"
-ln -s "$(cd ../skills/spoon && pwd)" "$SPOON_WS/.claude/skills/spoon"
+# Fresh workspace outside any git repo, so no tool walks up into other skills.
+# It holds only this repo's spoon, where each harness looks for project skills.
+export SPOON_WS="$(cd "$(mktemp -d)" && pwd -P)"   # real path: on macOS /var links to /private/var
+mkdir -p "$SPOON_WS/.claude/skills" "$SPOON_WS/.agents/skills"
+ln -s "$skill" "$SPOON_WS/.claude/skills/spoon"   # Claude Code (cli + sdk)
+ln -s "$skill" "$SPOON_WS/.agents/skills/spoon"   # Codex, OpenCode
 
-{
-  echo "spoon version: $SPOON_VERSION"
-  npx promptfoo eval -c promptfooconfig.yaml --repeat 2 --no-cache -j 4 \
-    --description "spoon $SPOON_VERSION" --tag "spoon_version=$SPOON_VERSION" \
-    -o results/results.json -o results/results.html "$@" || true
-  node summarize.js results
-} 2>&1 | tee results/run.log
+# Keep user-level copies out. Claude: setting_sources [project] in the config.
+# OpenCode also reads ~/.claude/skills (an old spoon lives there), so turn that off.
+export OPENCODE_DISABLE_CLAUDE_CODE=1 OPENCODE_DISABLE_AUTOUPDATE=1
+
+echo "spoon $SPOON_VERSION | workspace: $SPOON_WS"
+npx promptfoo eval --description "spoon $SPOON_VERSION" --tag "spoon_version=$SPOON_VERSION" "$@"

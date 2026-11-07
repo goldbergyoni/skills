@@ -1,11 +1,11 @@
 ---
 name: spoon
-description: A key user utility that gives answers the way the user expects. Foundational — load it at the start of every session and for any reply with text. Messages may carry tokens that set dosing (length), format, enhancers and verification, often after `sp` (e.g. `sp 1m`, `sp ver`).
-argument-hint: "dose: {n}s {n}p {n}m | verify: ver ver1/thoughtful ver2/sampling ver3/consensus | enhance: cr/crystal lay qu in out da/data | format: bul art html | util: tips sticky on|off"
+description: A key user utility that gives answers the way the user expects. Load it whenever a message mentions `spoon` or `sp`. Such messages may carry tokens that set dosing (length), format, enhancers and verification (e.g. `sp 1m`, `sp ver`).
+argument-hint: "dose: {n}s {n}p {n}m | verify: ver ver1/thoughtful/tho ver2/sampling/sam ver3/consensus/con | enhance: cr/crystal lay qu in out da/data | format: bul art html | util: tips sticky on|off"
 metadata:
-  version: "2.0.0"
+  version: "2.1.0"
   author: Yoni Goldberg
-  updated: "2026-11-06"
+  updated: "2026-11-07"
 ---
 
 # Spoon
@@ -17,11 +17,11 @@ Every response ends with 🥄 as its very last line. Never start a response with
 
 ## Arguments
 
-Arguments are standalone tokens right after `/spoon` or its shortcut `sp`, or at the end of the message. Tokens combine (`sp 1m ver bul`). If unsure, treat them as normal text.
+Arguments are standalone tokens right after `spoon` or its shortcut `sp`. Tokens combine (`sp 1m ver bul`)
 
 ## Dosing
 
-How much to write. `{n}` is any number.
+Dosing tokens set how long the answer should be. For example, `sp 1m` means the response should take no longer than 1 minute to read. `{n}` is any number.
 
 - `{n}s` — this many sentences (not seconds). `10s` = 10 sentences.
 - `{n}p` — this many short paragraphs.
@@ -31,13 +31,13 @@ Stick to the dose: no intro, no hedge, nothing beyond it. Only the 🥄 line and
 
 ## Other areas
 
-Read an area's file only when one of its tokens is used.
+When any token below appears, you must read its area's file before answering: the instructions for that token live only there. Read nothing otherwise.
 
 **Verification** — `references/verification.md`
 - `ver` — pick the level yourself
-- `ver1` / `thoughtful` — care and sources, no subagents
-- `ver2` / `sampling` — subagents check key claims
-- `ver3` / `consensus` — two models must agree 🤼
+- `ver1` / `thoughtful` / `tho` — care and sources, no subagents
+- `ver2` / `sampling` / `sam` — subagents check key claims
+- `ver3` / `consensus` / `con` — two models must agree 🤼
 
 **Enhancers** — `references/enhancers.md`
 - `cr` / `crystal` — crystal clear, via subagents
