@@ -1,0 +1,13 @@
+{
+  "name": "spoon",
+  "version": "2.2.0",
+  "description": "Tiny tokens that shape every answer: dose (sp 1m, sp 3s), verification, enhancers and formats.",
+  "author": {
+    "name": "Yoni Goldberg",
+    "url": "https://github.com/goldbergyoni"
+  },
+  "homepage": "https://github.com/goldbergyoni/skills/tree/main/spoon",
+  "repository": "https://github.com/goldbergyoni/skills",
+  "license": "MIT",
+  "keywords": ["skills", "answers", "verification", "formatting"]
+}
