@@ -6,15 +6,9 @@ Each top-level directory is one skill.
 
 ## Skills
 
-### `spoon` — shape every answer with tiny tokens
+### `spoon` — moved
 
-`sp 1m`, `sp 3s`, `sp ver`, `sp bul`: set how long an answer is, how carefully it's checked, and what shape it takes. See [`spoon/README.md`](spoon/README.md).
-
-| Where | Install |
-|---|---|
-| Claude Code | `/plugin marketplace add goldbergyoni/skills` then `/plugin install spoon@goldbergyoni` |
-| Codex | `codex plugin marketplace add goldbergyoni/skills` then `codex plugin add spoon@goldbergyoni` |
-| Any agent ([skills.sh](https://skills.sh)) | `npx skills add goldbergyoni/skills --skill spoon` |
+spoon now lives in its own repo: [practicajs/spoon](https://github.com/practicajs/spoon).
 
 ### `sdlc-rules` — standards for every AI-steering artifact
 
